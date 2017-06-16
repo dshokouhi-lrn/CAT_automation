@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" preserve-order="true" verbose="1">
+	<!-- <listeners> <listener class-name="com.ontestautomation.extentreports.listener.ExtentReporterNG" 
+		/> </listeners> -->
+	<parameter name="browser" value="chrome" />
+	<test name="SanityCheck">
+		<!-- <firefox, chrome, ie> -->
+		<classes>
+			<class name="com.lrn.cat.tc.LoginTC" />
+			
+<!-- 			<class name="com.lrn.cat.tc.SearchCourseTC" />
+			<class name="com.lrn.cat.tc.EditGetStartedTC" /> -->
+			
+<!-- 			<class name="com.lrn.cat.tc.EditCourseTC" /> -->
+			<class name= "com.lrn.cat.tc.CreateCourseTC" />
+			<class name= "com.lrn.cat.tc.AddLessonTC" />
+			<class name= "com.lrn.cat.tc.AddTopicTC" />
+ 			<class name= "com.lrn.cat.tc.AddPageTC" />
+			<class name= "com.lrn.cat.tc.EditConcernTemplateTC" />
+			<class name= "com.lrn.cat.tc.AddPageTC1" />
+			<class name= "com.lrn.cat.tc.EditConsentTemplateTC" />
+			<class name= "com.lrn.cat.tc.AddPageTC2" />
+	 		<class name= "com.lrn.cat.tc.EditSAQTC" />
+	 		<class name= "com.lrn.cat.tc.AddPageTC3" />
+			<class name= "com.lrn.cat.tc.EditTextTemplateTC" />
+			<class name= "com.lrn.cat.tc.AddPageTC4" />
+			<class name= "com.lrn.cat.tc.EditBinaryTemplateTC" />
+			<class name= "com.lrn.cat.tc.AddPageTC5" />
+			<class name= "com.lrn.cat.tc.EditCarouselTemplateTC" />
+			<class name= "com.lrn.cat.tc.AddPageTC6" />
+ 			<class name= "com.lrn.cat.tc.EditConsultTemplateTC" />
+ 			<class name= "com.lrn.cat.tc.AddPageTC7" />
+ 			<class name= "com.lrn.cat.tc.EditVideoTemplateTC" />
+ 			<class name= "com.lrn.cat.tc.AddPageTC8" />
+ 			<class name= "com.lrn.cat.tc.SidebarTemplateTC" />
+ 			<class name= "com.lrn.cat.tc.AddPageTC9" />
+ 			<class name= "com.lrn.cat.tc.EditDragAndDropTemplateTC" />
+ 			<class name= "com.lrn.cat.tc.AddPageTC10" />
+ 			<class name= "com.lrn.cat.tc.SelectableImageTC" />
+ 			<class name= "com.lrn.cat.tc.AddPageTC11" />
+ 			<class name= "com.lrn.cat.tc.EditMultipleScenarioTemplateTC" />
+			<class name= "com.lrn.cat.tc.CreateTestOutLessonTC" />
+			<class name= "com.lrn.cat.tc.LockPageTC" />
+			<class name= "com.lrn.cat.tc.UnlockPageTC" />
+			<class name= "com.lrn.cat.tc.HidePageTC" />
+			<class name= "com.lrn.cat.tc.UnhidePageTC" />
+			<class name= "com.lrn.cat.tc.DeletePageTC" />
+			<class name= "com.lrn.cat.tc.CheckInCourseTC" />
+<!-- 			<class name= "com.lrn.cat.tc.CheckOutCourseTC" /> -->
+            <class name="com.lrn.cat.tc.LogoutTC" />
+			
+		</classes>
+	</test>
+</suite> 
+
+
+
+
+
+
+ 
+ 
+ 
+ 
