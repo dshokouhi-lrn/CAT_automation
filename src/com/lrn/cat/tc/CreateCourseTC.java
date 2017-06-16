@@ -12,7 +12,5 @@ public class CreateCourseTC extends CreateCourse{
 	{
 		//createCourse("test", "test", "DAN272", "Library", "Foundational", "", "HOW", "", "", "English - US", "YES", "YES", "YES", "5");
 		createCourse("test", "test", "DAN772", "Custom", "Foundational", "", "", "qacustomize07", "qacustomize07", "English", "YES", "NO", "YES", "5");
-	
-		//testing commit difference
 	}
 }
