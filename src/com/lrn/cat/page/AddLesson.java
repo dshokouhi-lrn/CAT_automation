@@ -32,7 +32,9 @@ public class AddLesson extends CATAppCommon {
 			
 			Thread.sleep(3000);
 			
-			clickIdentifierXpath(".//div[@class='ui-dialog-buttonpane ui-widget-content ui-helper-clearfix']/div/button[1]");
+			//clickIdentifierXpath(".//div[@class='ui-dialog-buttonpane ui-widget-content ui-helper-clearfix']/div/button[1]");
+			
+			clickIdentifierXpath(".//div[@aria-describedby='dialogArea']/div[3]/div/button[1]");
 			
 			Log.pass("lesson created");
 		}

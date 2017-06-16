@@ -39,6 +39,8 @@
  			<class name= "com.lrn.cat.tc.SelectableImageTC" />
  			<class name= "com.lrn.cat.tc.AddPageTC11" />
  			<class name= "com.lrn.cat.tc.EditMultipleScenarioTemplateTC" />
+ 			<class name= "com.lrn.cat.tc.AddPageTC12" />
+ 			<class name= "com.lrn.cat.tc.EditSelectAndRevealTemplateTC" />
 			<class name= "com.lrn.cat.tc.CreateTestOutLessonTC" />
 			<class name= "com.lrn.cat.tc.LockPageTC" />
 			<class name= "com.lrn.cat.tc.UnlockPageTC" />

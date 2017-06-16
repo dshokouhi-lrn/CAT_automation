@@ -27,7 +27,9 @@ public class AddTopic extends CATAppCommon {
 			
 			typeTextByXpath("//*[@id='note_pag']/ul/li/input", topicName + " " + d.toString());
 			
-			clickIdentifierXpath(".//div[@class='ui-dialog-buttonpane ui-widget-content ui-helper-clearfix']/div/button[1]");
+			//clickIdentifierXpath(".//div[@class='ui-dialog-buttonpane ui-widget-content ui-helper-clearfix']/div/button[1]");
+			
+			clickIdentifierXpath(".//div[@aria-describedby='dialogArea']/div[3]/div/button[1]");
 			
 			Log.pass("topic created");
 		}
