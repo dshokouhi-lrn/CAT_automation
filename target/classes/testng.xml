@@ -21,8 +21,8 @@
 			<class name= "com.lrn.cat.tc.EditConsentTemplateTC" />
 			<class name= "com.lrn.cat.tc.AddPageTC2" />
 	 		<class name= "com.lrn.cat.tc.EditSAQTC" />
-	 		<class name= "com.lrn.cat.tc.AddPageTC3" />
-			<class name= "com.lrn.cat.tc.EditTextTemplateTC" />
+	 		<class name= "com.lrn.cat.tc.AddPageTC3" /> 
+ 			<class name= "com.lrn.cat.tc.EditTextTemplateTC" /> 
 			<class name= "com.lrn.cat.tc.AddPageTC4" />
 			<class name= "com.lrn.cat.tc.EditBinaryTemplateTC" />
 			<class name= "com.lrn.cat.tc.AddPageTC5" />
@@ -47,7 +47,14 @@
 			<class name= "com.lrn.cat.tc.HidePageTC" />
 			<class name= "com.lrn.cat.tc.UnhidePageTC" />
 			<class name= "com.lrn.cat.tc.DeletePageTC" />
-			<class name= "com.lrn.cat.tc.CheckInCourseTC" />
+			<class name= "com.lrn.cat.tc.EditCertificationTC" />
+			<class name= "com.lrn.cat.tc.CourseFeaturesTC" />
+			<class name= "com.lrn.cat.tc.PublishCourseTC" />
+			<class name= "com.lrn.cat.tc.SearchCourseTC" />
+			<class name= "com.lrn.cat.tc.EditGetStartedTC" />
+			<class name= "com.lrn.cat.tc.ExportToWordTC" />
+			<class name= "com.lrn.cat.tc.PushToCDVTC" />
+<!-- 			<class name= "com.lrn.cat.tc.CheckInCourseTC" /> -->
 <!-- 			<class name= "com.lrn.cat.tc.CheckOutCourseTC" /> -->
             <class name="com.lrn.cat.tc.LogoutTC" />
 			

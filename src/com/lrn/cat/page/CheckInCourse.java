@@ -24,7 +24,7 @@ public class CheckInCourse extends CATAppCommon{
 			JavascriptExecutor jse = (JavascriptExecutor)driver;
 			jse.executeScript("window.scrollTo(0,0)", "");
 			   
-			Thread.sleep(10000);
+			Thread.sleep(1000);
 			
 			clickIdentifierByID("courseCheckinButton");
 			//clickIdentifierXpath("//*[@id='mainSection']/div[1]/div/ul/li[1]/button");

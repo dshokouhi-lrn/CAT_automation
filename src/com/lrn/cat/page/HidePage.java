@@ -34,12 +34,12 @@ public class HidePage extends CATAppCommon {
 		}
 		
 		   catch(Exception e){  
-               Log.fail("Failed to lock page");
+               Log.fail("Failed to hide page");
                e.printStackTrace();
                throw e;                                        
         } catch(AssertionError e)
         {
-               Log.fail("Failed to lock page");
+               Log.fail("Failed to hide page");
                e.printStackTrace();
                throw e;
 

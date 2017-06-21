@@ -101,6 +101,8 @@ public class EditGetStarted extends CATAppCommon {
 			
 			clickIdentifierXpath(".//div[@id='menuTabs']/ul/li[2]/p"); 
 			Log.info("Navigate to Create course tab");
+			
+			Thread.sleep(3000);
 		}
 		
 		catch(Exception e){  

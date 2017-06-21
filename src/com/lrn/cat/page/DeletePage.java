@@ -41,12 +41,12 @@ public class DeletePage extends CATAppCommon {
 		}
 		
 		   catch(Exception e){  
-               Log.fail("Failed to lock page");
+               Log.fail("Failed to delete page");
                e.printStackTrace();
                throw e;                                        
         } catch(AssertionError e)
         {
-               Log.fail("Failed to lock page");
+               Log.fail("Failed to delete page");
                e.printStackTrace();
                throw e;
 

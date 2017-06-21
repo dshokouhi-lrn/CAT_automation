@@ -7,7 +7,6 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import com.lrn.cat.common.CATAppCommon;
 import com.lrn.pp.utility.Log;
-import com.thoughtworks.selenium.webdriven.commands.IsElementPresent;
 
 public class EditMultipleScenarioTemplate extends CATAppCommon{
 	
