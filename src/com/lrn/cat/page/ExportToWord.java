@@ -1,5 +1,8 @@
 package com.lrn.cat.page;
 
+import java.io.File;
+
+
 import org.openqa.selenium.JavascriptExecutor;
 
 import com.lrn.cat.common.CATAppCommon;
@@ -7,7 +10,7 @@ import com.lrn.pp.utility.Log;
 
 public class ExportToWord extends CATAppCommon{
 	
-	static public void exportToWordCourse(String showHidden, String showKC, String showCert, String showBulletin, String showTop10, String showFAQ, String showPageID) throws Exception
+	static public void exportToWordCourse(String fileName, String showHidden, String showKC, String showCert, String showBulletin, String showTop10, String showFAQ, String showPageID) throws Exception
 	{
 		try
 		{
@@ -70,9 +73,14 @@ public class ExportToWord extends CATAppCommon{
 			
 			clickIdentifierXpath(".//*[@id='exportToWord']/div[1]/div[10]/input");
 			
-			//Thread.sleep(10);
+			Thread.sleep(10000);
 			
-			String export = getValueByXpath("//*[@id='messageDialog']/tr/td[2]");
+			boolean wordDoc = isFileDownloaded("C:\\Users\\dshokouhi\\Downloads", fileName);
+			
+			if (wordDoc)
+				Log.pass("detected the file was downloaded");
+			
+			/*String export = getValueByXpath("//*[@id='messageDialog']/tr/td[2]");
 			
 			if (export.contains("Course Exported to Word"))
 			{
@@ -80,7 +88,7 @@ public class ExportToWord extends CATAppCommon{
 			}
 			
 			else
-				Log.fail("course did not export for reason: " + export);
+				Log.fail("course did not export for reason: " + export);*/
 		}
 		
 		catch(Exception e){  
@@ -94,6 +102,19 @@ public class ExportToWord extends CATAppCommon{
 		       throw e;
 
 		}
+	}
+	
+	static public boolean isFileDownloaded(String downloadPath, String fileName) {
+		boolean flag = false;
+	    File dir = new File(downloadPath);
+	    File[] dir_contents = dir.listFiles();
+	  	    
+	    for (int i = 0; i < dir_contents.length; i++) {
+	        if (dir_contents[i].getName().contains(fileName))
+	            return flag=true;
+	            }
+
+	    return flag;
 	}
 
 }

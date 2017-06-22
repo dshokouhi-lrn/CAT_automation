@@ -11,7 +11,7 @@ import com.lrn.pp.utility.Log;
 
 public class CreateTestOutLesson extends CATAppCommon{
 	
-	static public void createTestOutLesson(String welcomeLayout, String welcomeTitle, String welcomeContent, String welcomeAudio, String welcomeDesktop, String welcomeMobile, String welcomeImageDesc, String welcomeAltText, String assessmentLayout, String defaultPass, String passAudio, String passDesktop, String passMobile, String passImageDesc, String passAltText, String defaultFail, String failAudio, String failDesktop, String failMobile, String failImageDesc, String failAltText, String wrapUpLayout, String wrapUpTitle, String wrapUpContent, String wrapUpAudio, String wrapUpDesktop, String wrapUpMobile, String wrapUpImageDesc, String wrapUpAltText, String randomizeQuestions) throws Exception
+	static public void createTestOutLesson(String lessonPosition, String welcomeLayout, String welcomeTitle, String welcomeContent, String welcomeAudio, String welcomeDesktop, String welcomeMobile, String welcomeImageDesc, String welcomeAltText, String assessmentLayout, String defaultPass, String passAudio, String passDesktop, String passMobile, String passImageDesc, String passAltText, String defaultFail, String failAudio, String failDesktop, String failMobile, String failImageDesc, String failAltText, String wrapUpLayout, String wrapUpTitle, String wrapUpContent, String wrapUpAudio, String wrapUpDesktop, String wrapUpMobile, String wrapUpImageDesc, String wrapUpAltText, String randomizeQuestions) throws Exception
 	{
 		try
 		{
@@ -22,7 +22,7 @@ public class CreateTestOutLesson extends CATAppCommon{
 			JavascriptExecutor jse = (JavascriptExecutor)driver;
 			jse.executeScript("window.scrollTo(0,0)", "");
 			
-			clickIdentifierByID("j1_2_anchor");
+			clickIdentifierXpath("//*[@id='courseTree']/ul/li/ul/li["+ lessonPosition + "]/a");
 			
 			Thread.sleep(1000);
 			

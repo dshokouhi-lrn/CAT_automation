@@ -9,7 +9,7 @@ import com.lrn.pp.utility.Log;
 
 public class AddTopic extends CATAppCommon {
 	
-	static public void addTopic(String topicName) throws Exception
+	static public void addTopic(String lessonPosition, String topicName) throws Exception
 	{
 		try {
 			
@@ -20,6 +20,10 @@ public class AddTopic extends CATAppCommon {
 			
 			JavascriptExecutor jse = (JavascriptExecutor)driver;
 			jse.executeScript("window.scrollTo(0,0)", "");
+			
+			clickIdentifierXpath("//*[@id='courseTree']/ul/li/ul/li["+ lessonPosition + "]/a");
+			
+			Thread.sleep(3000);
 			
 			clickIdentifierXpath("//*[@id='courseTreeOperationIcons']/li[2]");
 			

@@ -4,12 +4,12 @@ import org.testng.annotations.Test;
 
 import com.lrn.cat.page.AddTopic;
 
-public class AddTopicTC extends AddTopic {
+public class AddTopicTC2 extends AddTopic {
 
 	@Test
 	
 	void CatAddTopic() throws Exception
 	{
-		addTopic("1", "topic");
+		addTopic("2", "topic2");
 	}
 }
