@@ -10,6 +10,6 @@ public class AddLessonTC extends AddLesson {
 	
 	void CatAddLesson() throws Exception
 	{
-		addLesson("lesson");
+		addLesson("lesson test out");
 	}
 }

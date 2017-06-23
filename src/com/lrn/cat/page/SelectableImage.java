@@ -3,7 +3,7 @@ package com.lrn.cat.page;
 import java.util.Date;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+
 
 import com.lrn.cat.common.CATAppCommon;
 import com.lrn.pp.utility.Log;

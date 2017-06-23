@@ -4,39 +4,29 @@
   <parameter name="browser" value="chrome"/>
   <test name="SanityCheck(failed)">
     <classes>
-      <class name="com.lrn.cat.tc.EditCertificationTC">
+      <class name="com.lrn.cat.tc.CopyNodeTC">
         <methods>
           <include name="updateResult"/>
           <include name="endClass"/>
           <include name="startWebDriver"/>
         </methods>
-      </class> <!-- com.lrn.cat.tc.EditCertificationTC -->
+      </class> <!-- com.lrn.cat.tc.CopyNodeTC -->
+      <class name="com.lrn.cat.tc.EditDragAndDropTemplateTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.EditDragAndDropTemplateTC -->
+      <class name="com.lrn.cat.tc.PasteNodeTC">
+        <methods>
+          <include name="updateResult"/>
+          <include name="CatPasteNode"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.PasteNodeTC -->
       <class name="com.lrn.cat.tc.AddPageTC10">
         <methods>
           <include name="updateResult"/>
         </methods>
       </class> <!-- com.lrn.cat.tc.AddPageTC10 -->
-      <class name="com.lrn.cat.tc.CourseFeaturesTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.CourseFeaturesTC -->
-      <class name="com.lrn.cat.tc.EditCarouselTemplateTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.EditCarouselTemplateTC -->
-      <class name="com.lrn.cat.tc.SelectableImageTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.SelectableImageTC -->
-      <class name="com.lrn.cat.tc.ExportToWordTC">
-        <methods>
-          <include name="CatExportToWord"/>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.ExportToWordTC -->
       <class name="com.lrn.cat.tc.EditConcernTemplateTC">
         <methods>
           <include name="updateResult"/>
@@ -52,191 +42,97 @@
           <include name="updateResult"/>
         </methods>
       </class> <!-- com.lrn.cat.tc.AddPageTC2 -->
-      <class name="com.lrn.cat.tc.DeletePageTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.DeletePageTC -->
-      <class name="com.lrn.cat.tc.EditTextTemplateTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.EditTextTemplateTC -->
-      <class name="com.lrn.cat.tc.EditSelectAndRevealTemplateTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.EditSelectAndRevealTemplateTC -->
-      <class name="com.lrn.cat.tc.AddTopicTC2">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.AddTopicTC2 -->
-      <class name="com.lrn.cat.tc.AddTopicTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.AddTopicTC -->
-      <class name="com.lrn.cat.tc.AddPageTC3">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.AddPageTC3 -->
-      <class name="com.lrn.cat.tc.HidePageTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.HidePageTC -->
-      <class name="com.lrn.cat.tc.EditSAQTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.EditSAQTC -->
-      <class name="com.lrn.cat.tc.AddPageTC6">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.AddPageTC6 -->
-      <class name="com.lrn.cat.tc.AddPageTC9">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.AddPageTC9 -->
-      <class name="com.lrn.cat.tc.AddLessonTC1">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.AddLessonTC1 -->
-      <class name="com.lrn.cat.tc.AddPageTC7">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.AddPageTC7 -->
-      <class name="com.lrn.cat.tc.AddLessonTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.AddLessonTC -->
-      <class name="com.lrn.cat.tc.AddPageTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.AddPageTC -->
-      <class name="com.lrn.cat.tc.EditVideoTemplateTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.EditVideoTemplateTC -->
-      <class name="com.lrn.cat.tc.AddTopicTC1">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.AddTopicTC1 -->
-      <class name="com.lrn.cat.tc.EditGetStartedTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.EditGetStartedTC -->
-      <class name="com.lrn.cat.tc.PushToCDVTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.PushToCDVTC -->
-      <class name="com.lrn.cat.tc.EditDragAndDropTemplateTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.EditDragAndDropTemplateTC -->
-      <class name="com.lrn.cat.tc.CreateTestOutLessonTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.CreateTestOutLessonTC -->
-      <class name="com.lrn.cat.tc.AddPageTC5">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.AddPageTC5 -->
-      <class name="com.lrn.cat.tc.EditConsultTemplateTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.EditConsultTemplateTC -->
-      <class name="com.lrn.cat.tc.CreateCourseTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.CreateCourseTC -->
-      <class name="com.lrn.cat.tc.AddPageTC11">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.AddPageTC11 -->
-      <class name="com.lrn.cat.tc.PublishCourseTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.PublishCourseTC -->
-      <class name="com.lrn.cat.tc.EditMultipleScenarioTemplateTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.EditMultipleScenarioTemplateTC -->
-      <class name="com.lrn.cat.tc.CreateBranchingLessonTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.CreateBranchingLessonTC -->
-      <class name="com.lrn.cat.tc.SidebarTemplateTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.SidebarTemplateTC -->
-      <class name="com.lrn.cat.tc.LoginTC">
-        <methods>
-          <include name="updateResult"/>
-        </methods>
-      </class> <!-- com.lrn.cat.tc.LoginTC -->
       <class name="com.lrn.cat.tc.UnhidePageTC">
         <methods>
           <include name="updateResult"/>
         </methods>
       </class> <!-- com.lrn.cat.tc.UnhidePageTC -->
-      <class name="com.lrn.cat.tc.EditConsentTemplateTC">
+      <class name="com.lrn.cat.tc.EditTextTemplateTC">
         <methods>
           <include name="updateResult"/>
         </methods>
-      </class> <!-- com.lrn.cat.tc.EditConsentTemplateTC -->
-      <class name="com.lrn.cat.tc.AddPageTC12">
+      </class> <!-- com.lrn.cat.tc.EditTextTemplateTC -->
+      <class name="com.lrn.cat.tc.AddPageTC3">
         <methods>
           <include name="updateResult"/>
         </methods>
-      </class> <!-- com.lrn.cat.tc.AddPageTC12 -->
+      </class> <!-- com.lrn.cat.tc.AddPageTC3 -->
+      <class name="com.lrn.cat.tc.AddPageTC6">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.AddPageTC6 -->
+      <class name="com.lrn.cat.tc.AddPageTC7">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.AddPageTC7 -->
+      <class name="com.lrn.cat.tc.AddPageTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.AddPageTC -->
       <class name="com.lrn.cat.tc.LogoutTC">
         <methods>
           <include name="updateResult"/>
         </methods>
       </class> <!-- com.lrn.cat.tc.LogoutTC -->
-      <class name="com.lrn.cat.tc.SearchCourseTC">
+      <class name="com.lrn.cat.tc.AddTopicTC1">
         <methods>
           <include name="updateResult"/>
         </methods>
-      </class> <!-- com.lrn.cat.tc.SearchCourseTC -->
-      <class name="com.lrn.cat.tc.UnlockPageTC">
+      </class> <!-- com.lrn.cat.tc.AddTopicTC1 -->
+      <class name="com.lrn.cat.tc.EditVideoTemplateTC">
         <methods>
           <include name="updateResult"/>
         </methods>
-      </class> <!-- com.lrn.cat.tc.UnlockPageTC -->
-      <class name="com.lrn.cat.tc.LockPageTC">
+      </class> <!-- com.lrn.cat.tc.EditVideoTemplateTC -->
+      <class name="com.lrn.cat.tc.EditCertificationTC">
         <methods>
           <include name="updateResult"/>
         </methods>
-      </class> <!-- com.lrn.cat.tc.LockPageTC -->
-      <class name="com.lrn.cat.tc.EditBinaryTemplateTC">
+      </class> <!-- com.lrn.cat.tc.EditCertificationTC -->
+      <class name="com.lrn.cat.tc.EditSelectAndRevealTemplateTC">
         <methods>
           <include name="updateResult"/>
         </methods>
-      </class> <!-- com.lrn.cat.tc.EditBinaryTemplateTC -->
+      </class> <!-- com.lrn.cat.tc.EditSelectAndRevealTemplateTC -->
+      <class name="com.lrn.cat.tc.AddPageTC9">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.AddPageTC9 -->
+      <class name="com.lrn.cat.tc.AddPageTC5">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.AddPageTC5 -->
+      <class name="com.lrn.cat.tc.CreateCourseTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.CreateCourseTC -->
+      <class name="com.lrn.cat.tc.DeletePageTC">
+        <methods>
+          <include name="updateResult"/>
+          <include name="CatDeletePage"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.DeletePageTC -->
+      <class name="com.lrn.cat.tc.AddPageTC11">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.AddPageTC11 -->
+      <class name="com.lrn.cat.tc.HidePageTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.HidePageTC -->
+      <class name="com.lrn.cat.tc.EditMultipleScenarioTemplateTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.EditMultipleScenarioTemplateTC -->
       <class name="com.lrn.cat.tc.AddPageTC8">
         <methods>
           <include name="updateResult"/>
@@ -247,6 +143,136 @@
           <include name="updateResult"/>
         </methods>
       </class> <!-- com.lrn.cat.tc.AddPageTC1 -->
+      <class name="com.lrn.cat.tc.EditCarouselTemplateTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.EditCarouselTemplateTC -->
+      <class name="com.lrn.cat.tc.SearchCourseTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.SearchCourseTC -->
+      <class name="com.lrn.cat.tc.TileMenuTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.TileMenuTC -->
+      <class name="com.lrn.cat.tc.AddPageTC12">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.AddPageTC12 -->
+      <class name="com.lrn.cat.tc.AddTopicTC2">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.AddTopicTC2 -->
+      <class name="com.lrn.cat.tc.AddTopicTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.AddTopicTC -->
+      <class name="com.lrn.cat.tc.ExportToWordTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.ExportToWordTC -->
+      <class name="com.lrn.cat.tc.UnlockPageTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.UnlockPageTC -->
+      <class name="com.lrn.cat.tc.EditSAQTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.EditSAQTC -->
+      <class name="com.lrn.cat.tc.AddLessonTC2">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.AddLessonTC2 -->
+      <class name="com.lrn.cat.tc.AddLessonTC1">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.AddLessonTC1 -->
+      <class name="com.lrn.cat.tc.PushToCDVTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.PushToCDVTC -->
+      <class name="com.lrn.cat.tc.AddLessonTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.AddLessonTC -->
+      <class name="com.lrn.cat.tc.EditGetStartedTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.EditGetStartedTC -->
+      <class name="com.lrn.cat.tc.CourseFeaturesTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.CourseFeaturesTC -->
+      <class name="com.lrn.cat.tc.EditConsultTemplateTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.EditConsultTemplateTC -->
+      <class name="com.lrn.cat.tc.SelectableImageTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.SelectableImageTC -->
+      <class name="com.lrn.cat.tc.CreateTestOutLessonTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.CreateTestOutLessonTC -->
+      <class name="com.lrn.cat.tc.SidebarTemplateTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.SidebarTemplateTC -->
+      <class name="com.lrn.cat.tc.LoginTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.LoginTC -->
+      <class name="com.lrn.cat.tc.EditConsentTemplateTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.EditConsentTemplateTC -->
+      <class name="com.lrn.cat.tc.PublishCourseTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.PublishCourseTC -->
+      <class name="com.lrn.cat.tc.LandingPageTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.LandingPageTC -->
+      <class name="com.lrn.cat.tc.LockPageTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.LockPageTC -->
+      <class name="com.lrn.cat.tc.CreateBranchingLessonTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.CreateBranchingLessonTC -->
+      <class name="com.lrn.cat.tc.EditBinaryTemplateTC">
+        <methods>
+          <include name="updateResult"/>
+        </methods>
+      </class> <!-- com.lrn.cat.tc.EditBinaryTemplateTC -->
     </classes>
   </test> <!-- SanityCheck(failed) -->
 </suite> <!-- Failed suite [Suite] -->

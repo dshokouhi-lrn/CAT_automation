@@ -19,6 +19,11 @@ public class CourseFeatures extends CATAppCommon {
 			
 			Log.startTestCase("start editing course features tab");
 			
+			JavascriptExecutor jse = (JavascriptExecutor)driver;
+			jse.executeScript("window.scrollTo(0,0)", "");
+			
+			Thread.sleep(1000);
+			
 			clickIdentifierXpath(".//*[@id='menuTabs']/ul/li[5]/p");
 			
 			Thread.sleep(1000);
@@ -119,8 +124,8 @@ public class CourseFeatures extends CATAppCommon {
 				Thread.sleep(5000);
 			}
 			
-			JavascriptExecutor jse = (JavascriptExecutor)driver;
-			jse.executeScript("window.scrollTo(0,0)", "");
+			JavascriptExecutor jse1 = (JavascriptExecutor)driver;
+			jse1.executeScript("window.scrollTo(0,0)", "");
 			
 			Thread.sleep(1000);
 			

@@ -721,7 +721,7 @@ public class WebAppCommon {
 		WebElement strElement = null;
 		try
 		{
-			strElement= new WebDriverWait(driver, 50).until(ExpectedConditions.visibilityOfElementLocated(By.id(element)));
+			strElement= new WebDriverWait(driver, 60).until(ExpectedConditions.visibilityOfElementLocated(By.id(element)));
 			if(strElement.isDisplayed() == false)
 			{
 				failTestcase("Waited for the TIMEOUT period but element " + strElement + " not found.");
@@ -739,7 +739,7 @@ public class WebAppCommon {
 		WebElement strElement = null;
 		try
 		{
-			strElement= new WebDriverWait(driver, 50).until(ExpectedConditions.visibilityOfElementLocated(By.name(element)));
+			strElement= new WebDriverWait(driver, 60).until(ExpectedConditions.visibilityOfElementLocated(By.name(element)));
 			if(strElement.isDisplayed() == false)
 			{
 				failTestcase("Waited for the TIMEOUT period but element " + strElement + " not found.");
@@ -758,7 +758,7 @@ public class WebAppCommon {
 		WebElement strElement = null;
 		try
 		{
-			strElement= new WebDriverWait(driver, 50).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(element)));
+			strElement= new WebDriverWait(driver, 60).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(element)));
 			if(strElement.isDisplayed() == false)
 			{
 				failTestcase("Waited for the TIMEOUT period but element " + strElement + " not found.");
@@ -777,7 +777,7 @@ public class WebAppCommon {
 		WebElement strElement = null;
 		try
 		{
-			strElement= new WebDriverWait(driver, 50).until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(element)));
+			strElement= new WebDriverWait(driver, 60).until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(element)));
 			if(strElement.isDisplayed() == false)
 			{
 				failTestcase("Waited for the TIMEOUT period but element " + strElement + " not found.");
@@ -797,7 +797,7 @@ public class WebAppCommon {
 		WebElement strElement = null;
 		try
 		{
-			strElement= new WebDriverWait(driver, 50).until(ExpectedConditions.visibilityOfElementLocated(By.linkText(element)));
+			strElement= new WebDriverWait(driver, 60).until(ExpectedConditions.visibilityOfElementLocated(By.linkText(element)));
 			if(strElement.isDisplayed() == false)
 			{
 				failTestcase("Waited for the TIMEOUT period but element " + strElement + " not found.");
@@ -817,7 +817,7 @@ public class WebAppCommon {
 		WebElement strElement = null;
 		try
 		{
-			strElement= new WebDriverWait(driver, 50).until(ExpectedConditions.visibilityOfElementLocated(By.partialLinkText(element)));
+			strElement= new WebDriverWait(driver, 60).until(ExpectedConditions.visibilityOfElementLocated(By.partialLinkText(element)));
 			if(strElement.isDisplayed() == false)
 			{
 				failTestcase("Waited for the TIMEOUT period but element " + strElement + " not found.");

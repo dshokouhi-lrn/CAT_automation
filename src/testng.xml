@@ -13,7 +13,7 @@
 			
 <!-- 			<class name="com.lrn.cat.tc.EditCourseTC" /> -->
 			<class name= "com.lrn.cat.tc.CreateCourseTC" />
-			<class name= "com.lrn.cat.tc.AddLessonTC" />
+ 			<class name= "com.lrn.cat.tc.AddLessonTC" />
 			<class name= "com.lrn.cat.tc.AddTopicTC" />
  			<class name= "com.lrn.cat.tc.AddPageTC" />
 			<class name= "com.lrn.cat.tc.EditConcernTemplateTC" />
@@ -36,6 +36,7 @@
  			<class name= "com.lrn.cat.tc.EditVideoTemplateTC" />
  			<class name= "com.lrn.cat.tc.AddPageTC8" />
  			<class name= "com.lrn.cat.tc.SidebarTemplateTC" />
+ 			<class name= "com.lrn.cat.tc.AddLessonTC2" />
  			<class name= "com.lrn.cat.tc.AddPageTC9" />
  			<class name= "com.lrn.cat.tc.EditDragAndDropTemplateTC" />
  			<class name= "com.lrn.cat.tc.AddPageTC10" />
@@ -50,8 +51,12 @@
 			<class name= "com.lrn.cat.tc.UnlockPageTC" />
 			<class name= "com.lrn.cat.tc.HidePageTC" />
 			<class name= "com.lrn.cat.tc.UnhidePageTC" />
-			<class name= "com.lrn.cat.tc.DeletePageTC" />
+			<class name= "com.lrn.cat.tc.CopyNodeTC" />
+			<class name= "com.lrn.cat.tc.PasteNodeTC" />
+			<class name= "com.lrn.cat.tc.DeletePageTC" /> 
+			<class name= "com.lrn.cat.tc.LandingPageTC" />
 			<class name= "com.lrn.cat.tc.EditCertificationTC" />
+			<class name= "com.lrn.cat.tc.TileMenuTC" />
 			<class name= "com.lrn.cat.tc.CourseFeaturesTC" />
 			<class name= "com.lrn.cat.tc.PublishCourseTC" />
 			<class name= "com.lrn.cat.tc.SearchCourseTC" />
