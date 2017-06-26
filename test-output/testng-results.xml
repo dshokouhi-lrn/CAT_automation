@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="53" passed="53">
+<testng-results skipped="0" failed="0" total="54" passed="54">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2966543" started-at="2017-06-23T19:56:08Z" finished-at="2017-06-23T20:45:34Z">
+  <suite name="Suite" duration-ms="2946759" started-at="2017-06-26T14:56:24Z" finished-at="2017-06-26T15:45:31Z">
     <groups>
     </groups>
-    <test name="SanityCheck" duration-ms="2966543" started-at="2017-06-23T19:56:08Z" finished-at="2017-06-23T20:45:34Z">
+    <test name="SanityCheck" duration-ms="2946759" started-at="2017-06-26T14:56:24Z" finished-at="2017-06-26T15:45:31Z">
       <class name="com.lrn.cat.tc.CreateBranchingLessonTC">
-        <test-method status="PASS" signature="CatCreateBranchingLesson()[pri:0, instance:com.lrn.cat.tc.CreateBranchingLessonTC@4ba2ca36]" name="CatCreateBranchingLesson" duration-ms="88160" started-at="2017-06-23T13:31:25Z" finished-at="2017-06-23T13:32:53Z">
+        <test-method status="PASS" signature="CatCreateBranchingLesson()[pri:0, instance:com.lrn.cat.tc.CreateBranchingLessonTC@6a79c292]" name="CatCreateBranchingLesson" duration-ms="86860" started-at="2017-06-26T08:31:10Z" finished-at="2017-06-26T08:32:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatCreateBranchingLesson -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.CreateBranchingLessonTC@4ba2ca36]" name="updateResult" is-config="true" duration-ms="25" started-at="2017-06-23T13:32:53Z" finished-at="2017-06-23T13:32:53Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.CreateBranchingLessonTC@6a79c292]" name="updateResult" is-config="true" duration-ms="26" started-at="2017-06-26T08:32:37Z" finished-at="2017-06-26T08:32:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatCreateBranchingLesson status=SUCCESS method=CreateBranchingLessonTC.CatCreateBranchingLesson()[pri:0, instance:com.lrn.cat.tc.CreateBranchingLessonTC@4ba2ca36] output={null}]]]>
+                <![CDATA[[TestResult name=CatCreateBranchingLesson status=SUCCESS method=CreateBranchingLessonTC.CatCreateBranchingLesson()[pri:0, instance:com.lrn.cat.tc.CreateBranchingLessonTC@6a79c292] output={null}]]]>
               </value>
             </param>
           </params>
@@ -24,15 +24,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.CreateBranchingLessonTC -->
       <class name="com.lrn.cat.tc.EditBinaryTemplateTC">
-        <test-method status="PASS" signature="CatEditBinaryTemplate()[pri:0, instance:com.lrn.cat.tc.EditBinaryTemplateTC@120d6fe6]" name="CatEditBinaryTemplate" duration-ms="83715" started-at="2017-06-23T13:04:14Z" finished-at="2017-06-23T13:05:38Z">
+        <test-method status="PASS" signature="CatEditBinaryTemplate()[pri:0, instance:com.lrn.cat.tc.EditBinaryTemplateTC@1372ed45]" name="CatEditBinaryTemplate" duration-ms="79769" started-at="2017-06-26T08:04:16Z" finished-at="2017-06-26T08:05:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatEditBinaryTemplate -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditBinaryTemplateTC@120d6fe6]" name="updateResult" is-config="true" duration-ms="31" started-at="2017-06-23T13:05:38Z" finished-at="2017-06-23T13:05:38Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditBinaryTemplateTC@1372ed45]" name="updateResult" is-config="true" duration-ms="39" started-at="2017-06-26T08:05:36Z" finished-at="2017-06-26T08:05:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatEditBinaryTemplate status=SUCCESS method=EditBinaryTemplateTC.CatEditBinaryTemplate()[pri:0, instance:com.lrn.cat.tc.EditBinaryTemplateTC@120d6fe6] output={null}]]]>
+                <![CDATA[[TestResult name=CatEditBinaryTemplate status=SUCCESS method=EditBinaryTemplateTC.CatEditBinaryTemplate()[pri:0, instance:com.lrn.cat.tc.EditBinaryTemplateTC@1372ed45] output={null}]]]>
               </value>
             </param>
           </params>
@@ -41,15 +41,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.EditBinaryTemplateTC -->
       <class name="com.lrn.cat.tc.SearchCourseTC">
-        <test-method status="PASS" signature="CatLogicTC()[pri:0, instance:com.lrn.cat.tc.SearchCourseTC@11c20519]" name="CatLogicTC" duration-ms="5086" started-at="2017-06-23T13:44:04Z" finished-at="2017-06-23T13:44:09Z">
+        <test-method status="PASS" signature="CatLogicTC()[pri:0, instance:com.lrn.cat.tc.SearchCourseTC@32a068d1]" name="CatLogicTC" duration-ms="4968" started-at="2017-06-26T08:43:23Z" finished-at="2017-06-26T08:43:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatLogicTC -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.SearchCourseTC@11c20519]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-23T13:44:09Z" finished-at="2017-06-23T13:44:09Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.SearchCourseTC@32a068d1]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-26T08:43:28Z" finished-at="2017-06-26T08:43:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatLogicTC status=SUCCESS method=SearchCourseTC.CatLogicTC()[pri:0, instance:com.lrn.cat.tc.SearchCourseTC@11c20519] output={null}]]]>
+                <![CDATA[[TestResult name=CatLogicTC status=SUCCESS method=SearchCourseTC.CatLogicTC()[pri:0, instance:com.lrn.cat.tc.SearchCourseTC@32a068d1] output={null}]]]>
               </value>
             </param>
           </params>
@@ -58,15 +58,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.SearchCourseTC -->
       <class name="com.lrn.cat.tc.AddTopicTC2">
-        <test-method status="PASS" signature="CatAddTopic()[pri:0, instance:com.lrn.cat.tc.AddTopicTC2@4e41089d]" name="CatAddTopic" duration-ms="7460" started-at="2017-06-23T13:07:27Z" finished-at="2017-06-23T13:07:34Z">
+        <test-method status="PASS" signature="CatAddTopic()[pri:0, instance:com.lrn.cat.tc.AddTopicTC2@365c30cc]" name="CatAddTopic" duration-ms="7540" started-at="2017-06-26T08:07:24Z" finished-at="2017-06-26T08:07:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddTopic -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddTopicTC2@4e41089d]" name="updateResult" is-config="true" duration-ms="26" started-at="2017-06-23T13:07:34Z" finished-at="2017-06-23T13:07:34Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddTopicTC2@365c30cc]" name="updateResult" is-config="true" duration-ms="28" started-at="2017-06-26T08:07:32Z" finished-at="2017-06-26T08:07:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddTopic status=SUCCESS method=AddTopicTC2.CatAddTopic()[pri:0, instance:com.lrn.cat.tc.AddTopicTC2@4e41089d] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddTopic status=SUCCESS method=AddTopicTC2.CatAddTopic()[pri:0, instance:com.lrn.cat.tc.AddTopicTC2@365c30cc] output={null}]]]>
               </value>
             </param>
           </params>
@@ -75,15 +75,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddTopicTC2 -->
       <class name="com.lrn.cat.tc.AddTopicTC1">
-        <test-method status="PASS" signature="CatAddTopic()[pri:0, instance:com.lrn.cat.tc.AddTopicTC1@6cc7b4de]" name="CatAddTopic" duration-ms="7256" started-at="2017-06-23T13:02:55Z" finished-at="2017-06-23T13:03:02Z">
+        <test-method status="PASS" signature="CatAddTopic()[pri:0, instance:com.lrn.cat.tc.AddTopicTC1@679b62af]" name="CatAddTopic" duration-ms="7514" started-at="2017-06-26T08:02:57Z" finished-at="2017-06-26T08:03:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddTopic -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddTopicTC1@6cc7b4de]" name="updateResult" is-config="true" duration-ms="21" started-at="2017-06-23T13:03:02Z" finished-at="2017-06-23T13:03:02Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddTopicTC1@679b62af]" name="updateResult" is-config="true" duration-ms="42" started-at="2017-06-26T08:03:05Z" finished-at="2017-06-26T08:03:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddTopic status=SUCCESS method=AddTopicTC1.CatAddTopic()[pri:0, instance:com.lrn.cat.tc.AddTopicTC1@6cc7b4de] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddTopic status=SUCCESS method=AddTopicTC1.CatAddTopic()[pri:0, instance:com.lrn.cat.tc.AddTopicTC1@679b62af] output={null}]]]>
               </value>
             </param>
           </params>
@@ -92,15 +92,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddTopicTC1 -->
       <class name="com.lrn.cat.tc.PushToCDVTC">
-        <test-method status="PASS" signature="CatPushToCDV()[pri:0, instance:com.lrn.cat.tc.PushToCDVTC@71a794e5]" name="CatPushToCDV" duration-ms="42597" started-at="2017-06-23T13:44:41Z" finished-at="2017-06-23T13:45:23Z">
+        <test-method status="PASS" signature="CatPushToCDV()[pri:0, instance:com.lrn.cat.tc.PushToCDVTC@6cc7b4de]" name="CatPushToCDV" duration-ms="39914" started-at="2017-06-26T08:44:42Z" finished-at="2017-06-26T08:45:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatPushToCDV -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.PushToCDVTC@71a794e5]" name="updateResult" is-config="true" duration-ms="21" started-at="2017-06-23T13:45:23Z" finished-at="2017-06-23T13:45:23Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.PushToCDVTC@6cc7b4de]" name="updateResult" is-config="true" duration-ms="23" started-at="2017-06-26T08:45:22Z" finished-at="2017-06-26T08:45:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatPushToCDV status=SUCCESS method=PushToCDVTC.CatPushToCDV()[pri:0, instance:com.lrn.cat.tc.PushToCDVTC@71a794e5] output={null}]]]>
+                <![CDATA[[TestResult name=CatPushToCDV status=SUCCESS method=PushToCDVTC.CatPushToCDV()[pri:0, instance:com.lrn.cat.tc.PushToCDVTC@6cc7b4de] output={null}]]]>
               </value>
             </param>
           </params>
@@ -109,15 +109,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.PushToCDVTC -->
       <class name="com.lrn.cat.tc.LoginTC">
-        <test-method status="PASS" signature="CatLogicTC()[pri:0, instance:com.lrn.cat.tc.LoginTC@31206beb]" name="CatLogicTC" duration-ms="10704" started-at="2017-06-23T12:56:12Z" finished-at="2017-06-23T12:56:23Z">
+        <test-method status="PASS" signature="CatLogicTC()[pri:0, instance:com.lrn.cat.tc.LoginTC@23bb8443]" name="CatLogicTC" duration-ms="7654" started-at="2017-06-26T07:56:29Z" finished-at="2017-06-26T07:56:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatLogicTC -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.LoginTC@31206beb]" name="updateResult" is-config="true" duration-ms="286" started-at="2017-06-23T12:56:23Z" finished-at="2017-06-23T12:56:23Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.LoginTC@23bb8443]" name="updateResult" is-config="true" duration-ms="260" started-at="2017-06-26T07:56:36Z" finished-at="2017-06-26T07:56:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatLogicTC status=SUCCESS method=LoginTC.CatLogicTC()[pri:0, instance:com.lrn.cat.tc.LoginTC@31206beb] output={null}]]]>
+                <![CDATA[[TestResult name=CatLogicTC status=SUCCESS method=LoginTC.CatLogicTC()[pri:0, instance:com.lrn.cat.tc.LoginTC@23bb8443] output={null}]]]>
               </value>
             </param>
           </params>
@@ -126,15 +126,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.LoginTC -->
       <class name="com.lrn.cat.tc.EditGetStartedTC">
-        <test-method status="PASS" signature="CatEditGetStarted()[pri:0, instance:com.lrn.cat.tc.EditGetStartedTC@5e25a92e]" name="CatEditGetStarted" duration-ms="11526" started-at="2017-06-23T13:44:09Z" finished-at="2017-06-23T13:44:21Z">
+        <test-method status="PASS" signature="CatEditGetStarted()[pri:0, instance:com.lrn.cat.tc.EditGetStartedTC@62fdb4a6]" name="CatEditGetStarted" duration-ms="13667" started-at="2017-06-26T08:43:28Z" finished-at="2017-06-26T08:43:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatEditGetStarted -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditGetStartedTC@5e25a92e]" name="updateResult" is-config="true" duration-ms="23" started-at="2017-06-23T13:44:21Z" finished-at="2017-06-23T13:44:21Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditGetStartedTC@62fdb4a6]" name="updateResult" is-config="true" duration-ms="34" started-at="2017-06-26T08:43:42Z" finished-at="2017-06-26T08:43:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatEditGetStarted status=SUCCESS method=EditGetStartedTC.CatEditGetStarted()[pri:0, instance:com.lrn.cat.tc.EditGetStartedTC@5e25a92e] output={null}]]]>
+                <![CDATA[[TestResult name=CatEditGetStarted status=SUCCESS method=EditGetStartedTC.CatEditGetStarted()[pri:0, instance:com.lrn.cat.tc.EditGetStartedTC@62fdb4a6] output={null}]]]>
               </value>
             </param>
           </params>
@@ -143,15 +143,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.EditGetStartedTC -->
       <class name="com.lrn.cat.tc.AddPageTC12">
-        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC12@32a068d1]" name="CatAddPage" duration-ms="15179" started-at="2017-06-23T13:24:31Z" finished-at="2017-06-23T13:24:47Z">
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC12@701fc37a]" name="CatAddPage" duration-ms="15027" started-at="2017-06-26T08:24:21Z" finished-at="2017-06-26T08:24:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC12@32a068d1]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-23T13:24:47Z" finished-at="2017-06-23T13:24:47Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC12@701fc37a]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-26T08:24:36Z" finished-at="2017-06-26T08:24:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC12.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC12@32a068d1] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC12.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC12@701fc37a] output={null}]]]>
               </value>
             </param>
           </params>
@@ -159,33 +159,16 @@
           </reporter-output>
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddPageTC12 -->
-      <class name="com.lrn.cat.tc.CourseFeaturesTC">
-        <test-method status="PASS" signature="CatEditCourseFeatures()[pri:0, instance:com.lrn.cat.tc.CourseFeaturesTC@4df828d7]" name="CatEditCourseFeatures" duration-ms="136368" started-at="2017-06-23T13:40:57Z" finished-at="2017-06-23T13:43:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CatEditCourseFeatures -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.CourseFeaturesTC@4df828d7]" name="updateResult" is-config="true" duration-ms="21" started-at="2017-06-23T13:43:14Z" finished-at="2017-06-23T13:43:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=CatEditCourseFeatures status=SUCCESS method=CourseFeaturesTC.CatEditCourseFeatures()[pri:0, instance:com.lrn.cat.tc.CourseFeaturesTC@4df828d7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateResult -->
-      </class> <!-- com.lrn.cat.tc.CourseFeaturesTC -->
       <class name="com.lrn.cat.tc.UnlockPageTC">
-        <test-method status="PASS" signature="CatLockPage()[pri:0, instance:com.lrn.cat.tc.UnlockPageTC@701fc37a]" name="CatLockPage" duration-ms="1524" started-at="2017-06-23T13:33:27Z" finished-at="2017-06-23T13:33:28Z">
+        <test-method status="PASS" signature="CatLockPage()[pri:0, instance:com.lrn.cat.tc.UnlockPageTC@7fad8c79]" name="CatLockPage" duration-ms="1322" started-at="2017-06-26T08:33:11Z" finished-at="2017-06-26T08:33:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatLockPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.UnlockPageTC@701fc37a]" name="updateResult" is-config="true" duration-ms="43" started-at="2017-06-23T13:33:28Z" finished-at="2017-06-23T13:33:28Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.UnlockPageTC@7fad8c79]" name="updateResult" is-config="true" duration-ms="36" started-at="2017-06-26T08:33:12Z" finished-at="2017-06-26T08:33:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatLockPage status=SUCCESS method=UnlockPageTC.CatLockPage()[pri:0, instance:com.lrn.cat.tc.UnlockPageTC@701fc37a] output={null}]]]>
+                <![CDATA[[TestResult name=CatLockPage status=SUCCESS method=UnlockPageTC.CatLockPage()[pri:0, instance:com.lrn.cat.tc.UnlockPageTC@7fad8c79] output={null}]]]>
               </value>
             </param>
           </params>
@@ -193,16 +176,33 @@
           </reporter-output>
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.UnlockPageTC -->
-      <class name="com.lrn.cat.tc.AddPageTC10">
-        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC10@33b37288]" name="CatAddPage" duration-ms="15153" started-at="2017-06-23T13:16:44Z" finished-at="2017-06-23T13:16:59Z">
+      <class name="com.lrn.cat.tc.CourseFeaturesTC">
+        <test-method status="PASS" signature="CatEditCourseFeatures()[pri:0, instance:com.lrn.cat.tc.CourseFeaturesTC@11e21d0e]" name="CatEditCourseFeatures" duration-ms="135287" started-at="2017-06-26T08:40:25Z" finished-at="2017-06-26T08:42:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CatAddPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC10@33b37288]" name="updateResult" is-config="true" duration-ms="24" started-at="2017-06-23T13:16:59Z" finished-at="2017-06-23T13:16:59Z">
+        </test-method> <!-- CatEditCourseFeatures -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.CourseFeaturesTC@11e21d0e]" name="updateResult" is-config="true" duration-ms="22" started-at="2017-06-26T08:42:41Z" finished-at="2017-06-26T08:42:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC10.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC10@33b37288] output={null}]]]>
+                <![CDATA[[TestResult name=CatEditCourseFeatures status=SUCCESS method=CourseFeaturesTC.CatEditCourseFeatures()[pri:0, instance:com.lrn.cat.tc.CourseFeaturesTC@11e21d0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+      </class> <!-- com.lrn.cat.tc.CourseFeaturesTC -->
+      <class name="com.lrn.cat.tc.AddPageTC10">
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC10@7181ae3f]" name="CatAddPage" duration-ms="14920" started-at="2017-06-26T08:16:38Z" finished-at="2017-06-26T08:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatAddPage -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC10@7181ae3f]" name="updateResult" is-config="true" duration-ms="26" started-at="2017-06-26T08:16:53Z" finished-at="2017-06-26T08:16:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC10.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC10@7181ae3f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -210,33 +210,16 @@
           </reporter-output>
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddPageTC10 -->
-      <class name="com.lrn.cat.tc.AddPageTC11">
-        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC11@290dbf45]" name="CatAddPage" duration-ms="15119" started-at="2017-06-23T13:19:09Z" finished-at="2017-06-23T13:19:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CatAddPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC11@290dbf45]" name="updateResult" is-config="true" duration-ms="23" started-at="2017-06-23T13:19:24Z" finished-at="2017-06-23T13:19:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC11.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC11@290dbf45] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateResult -->
-      </class> <!-- com.lrn.cat.tc.AddPageTC11 -->
       <class name="com.lrn.cat.tc.PasteNodeTC">
-        <test-method status="PASS" signature="CatPasteNode()[pri:0, instance:com.lrn.cat.tc.PasteNodeTC@588df31b]" name="CatPasteNode" duration-ms="32381" started-at="2017-06-23T13:34:55Z" finished-at="2017-06-23T13:35:27Z">
+        <test-method status="PASS" signature="CatPasteNode()[pri:0, instance:com.lrn.cat.tc.PasteNodeTC@77a57272]" name="CatPasteNode" duration-ms="32132" started-at="2017-06-26T08:34:39Z" finished-at="2017-06-26T08:35:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatPasteNode -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.PasteNodeTC@588df31b]" name="updateResult" is-config="true" duration-ms="21" started-at="2017-06-23T13:35:27Z" finished-at="2017-06-23T13:35:27Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.PasteNodeTC@77a57272]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-26T08:35:11Z" finished-at="2017-06-26T08:35:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatPasteNode status=SUCCESS method=PasteNodeTC.CatPasteNode()[pri:0, instance:com.lrn.cat.tc.PasteNodeTC@588df31b] output={null}]]]>
+                <![CDATA[[TestResult name=CatPasteNode status=SUCCESS method=PasteNodeTC.CatPasteNode()[pri:0, instance:com.lrn.cat.tc.PasteNodeTC@77a57272] output={null}]]]>
               </value>
             </param>
           </params>
@@ -244,16 +227,33 @@
           </reporter-output>
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.PasteNodeTC -->
-      <class name="com.lrn.cat.tc.EditSAQTC">
-        <test-method status="PASS" signature="CatEditSAQ()[pri:0, instance:com.lrn.cat.tc.EditSAQTC@365c30cc]" name="CatEditSAQ" duration-ms="113209" started-at="2017-06-23T13:00:49Z" finished-at="2017-06-23T13:02:42Z">
+      <class name="com.lrn.cat.tc.AddPageTC11">
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC11@17776a8]" name="CatAddPage" duration-ms="14962" started-at="2017-06-26T08:19:02Z" finished-at="2017-06-26T08:19:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CatEditSAQ -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditSAQTC@365c30cc]" name="updateResult" is-config="true" duration-ms="25" started-at="2017-06-23T13:02:42Z" finished-at="2017-06-23T13:02:42Z">
+        </test-method> <!-- CatAddPage -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC11@17776a8]" name="updateResult" is-config="true" duration-ms="19" started-at="2017-06-26T08:19:17Z" finished-at="2017-06-26T08:19:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatEditSAQ status=SUCCESS method=EditSAQTC.CatEditSAQ()[pri:0, instance:com.lrn.cat.tc.EditSAQTC@365c30cc] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC11.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC11@17776a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+      </class> <!-- com.lrn.cat.tc.AddPageTC11 -->
+      <class name="com.lrn.cat.tc.EditSAQTC">
+        <test-method status="PASS" signature="CatEditSAQ()[pri:0, instance:com.lrn.cat.tc.EditSAQTC@282003e1]" name="CatEditSAQ" duration-ms="112623" started-at="2017-06-26T08:00:51Z" finished-at="2017-06-26T08:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatEditSAQ -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditSAQTC@282003e1]" name="updateResult" is-config="true" duration-ms="25" started-at="2017-06-26T08:02:44Z" finished-at="2017-06-26T08:02:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CatEditSAQ status=SUCCESS method=EditSAQTC.CatEditSAQ()[pri:0, instance:com.lrn.cat.tc.EditSAQTC@282003e1] output={null}]]]>
               </value>
             </param>
           </params>
@@ -261,33 +261,16 @@
           </reporter-output>
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.EditSAQTC -->
-      <class name="com.lrn.cat.tc.UnhidePageTC">
-        <test-method status="PASS" signature="CatUnhidePage()[pri:0, instance:com.lrn.cat.tc.UnhidePageTC@32464a14]" name="CatUnhidePage" duration-ms="21447" started-at="2017-06-23T13:34:02Z" finished-at="2017-06-23T13:34:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CatUnhidePage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.UnhidePageTC@32464a14]" name="updateResult" is-config="true" duration-ms="24" started-at="2017-06-23T13:34:23Z" finished-at="2017-06-23T13:34:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=CatUnhidePage status=SUCCESS method=UnhidePageTC.CatUnhidePage()[pri:0, instance:com.lrn.cat.tc.UnhidePageTC@32464a14] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateResult -->
-      </class> <!-- com.lrn.cat.tc.UnhidePageTC -->
       <class name="com.lrn.cat.tc.DeletePageTC">
-        <test-method status="PASS" signature="CatDeletePage()[pri:0, instance:com.lrn.cat.tc.DeletePageTC@49c43f4e]" name="CatDeletePage" duration-ms="30518" started-at="2017-06-23T13:35:27Z" finished-at="2017-06-23T13:35:58Z">
+        <test-method status="PASS" signature="CatDeletePage()[pri:0, instance:com.lrn.cat.tc.DeletePageTC@12028586]" name="CatDeletePage" duration-ms="18539" started-at="2017-06-26T08:35:11Z" finished-at="2017-06-26T08:35:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatDeletePage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.DeletePageTC@49c43f4e]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-23T13:35:58Z" finished-at="2017-06-23T13:35:58Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.DeletePageTC@12028586]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-26T08:35:29Z" finished-at="2017-06-26T08:35:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatDeletePage status=SUCCESS method=DeletePageTC.CatDeletePage()[pri:0, instance:com.lrn.cat.tc.DeletePageTC@49c43f4e] output={null}]]]>
+                <![CDATA[[TestResult name=CatDeletePage status=SUCCESS method=DeletePageTC.CatDeletePage()[pri:0, instance:com.lrn.cat.tc.DeletePageTC@12028586] output={null}]]]>
               </value>
             </param>
           </params>
@@ -295,16 +278,33 @@
           </reporter-output>
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.DeletePageTC -->
-      <class name="com.lrn.cat.tc.AddPageTC">
-        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC@1ee807c6]" name="CatAddPage" duration-ms="14774" started-at="2017-06-23T12:57:19Z" finished-at="2017-06-23T12:57:34Z">
+      <class name="com.lrn.cat.tc.UnhidePageTC">
+        <test-method status="PASS" signature="CatUnhidePage()[pri:0, instance:com.lrn.cat.tc.UnhidePageTC@1442d7b5]" name="CatUnhidePage" duration-ms="21309" started-at="2017-06-26T08:33:46Z" finished-at="2017-06-26T08:34:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CatAddPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC@1ee807c6]" name="updateResult" is-config="true" duration-ms="27" started-at="2017-06-23T12:57:34Z" finished-at="2017-06-23T12:57:34Z">
+        </test-method> <!-- CatUnhidePage -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.UnhidePageTC@1442d7b5]" name="updateResult" is-config="true" duration-ms="21" started-at="2017-06-26T08:34:07Z" finished-at="2017-06-26T08:34:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC@1ee807c6] output={null}]]]>
+                <![CDATA[[TestResult name=CatUnhidePage status=SUCCESS method=UnhidePageTC.CatUnhidePage()[pri:0, instance:com.lrn.cat.tc.UnhidePageTC@1442d7b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+      </class> <!-- com.lrn.cat.tc.UnhidePageTC -->
+      <class name="com.lrn.cat.tc.AddPageTC">
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC@517cd4b]" name="CatAddPage" duration-ms="14813" started-at="2017-06-26T07:57:22Z" finished-at="2017-06-26T07:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatAddPage -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC@517cd4b]" name="updateResult" is-config="true" duration-ms="28" started-at="2017-06-26T07:57:37Z" finished-at="2017-06-26T07:57:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC@517cd4b] output={null}]]]>
               </value>
             </param>
           </params>
@@ -313,15 +313,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddPageTC -->
       <class name="com.lrn.cat.tc.EditSelectAndRevealTemplateTC">
-        <test-method status="PASS" signature="CatEditSelectAndRevealTemplate()[pri:0, instance:com.lrn.cat.tc.EditSelectAndRevealTemplateTC@d6da883]" name="CatEditSelectAndRevealTemplate" duration-ms="193122" started-at="2017-06-23T13:24:47Z" finished-at="2017-06-23T13:28:00Z">
+        <test-method status="PASS" signature="CatEditSelectAndRevealTemplate()[pri:0, instance:com.lrn.cat.tc.EditSelectAndRevealTemplateTC@799d4f69]" name="CatEditSelectAndRevealTemplate" duration-ms="191020" started-at="2017-06-26T08:24:36Z" finished-at="2017-06-26T08:27:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatEditSelectAndRevealTemplate -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditSelectAndRevealTemplateTC@d6da883]" name="updateResult" is-config="true" duration-ms="22" started-at="2017-06-23T13:28:00Z" finished-at="2017-06-23T13:28:00Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditSelectAndRevealTemplateTC@799d4f69]" name="updateResult" is-config="true" duration-ms="21" started-at="2017-06-26T08:27:47Z" finished-at="2017-06-26T08:27:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatEditSelectAndRevealTemplate status=SUCCESS method=EditSelectAndRevealTemplateTC.CatEditSelectAndRevealTemplate()[pri:0, instance:com.lrn.cat.tc.EditSelectAndRevealTemplateTC@d6da883] output={null}]]]>
+                <![CDATA[[TestResult name=CatEditSelectAndRevealTemplate status=SUCCESS method=EditSelectAndRevealTemplateTC.CatEditSelectAndRevealTemplate()[pri:0, instance:com.lrn.cat.tc.EditSelectAndRevealTemplateTC@799d4f69] output={null}]]]>
               </value>
             </param>
           </params>
@@ -330,15 +330,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.EditSelectAndRevealTemplateTC -->
       <class name="com.lrn.cat.tc.AddLessonTC1">
-        <test-method status="PASS" signature="CatAddLesson()[pri:0, instance:com.lrn.cat.tc.AddLessonTC1@7fad8c79]" name="CatAddLesson" duration-ms="13036" started-at="2017-06-23T13:02:42Z" finished-at="2017-06-23T13:02:55Z">
+        <test-method status="PASS" signature="CatAddLesson()[pri:0, instance:com.lrn.cat.tc.AddLessonTC1@5e25a92e]" name="CatAddLesson" duration-ms="13123" started-at="2017-06-26T08:02:44Z" finished-at="2017-06-26T08:02:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddLesson -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddLessonTC1@7fad8c79]" name="updateResult" is-config="true" duration-ms="22" started-at="2017-06-23T13:02:55Z" finished-at="2017-06-23T13:02:55Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddLessonTC1@5e25a92e]" name="updateResult" is-config="true" duration-ms="23" started-at="2017-06-26T08:02:57Z" finished-at="2017-06-26T08:02:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddLesson status=SUCCESS method=AddLessonTC1.CatAddLesson()[pri:0, instance:com.lrn.cat.tc.AddLessonTC1@7fad8c79] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddLesson status=SUCCESS method=AddLessonTC1.CatAddLesson()[pri:0, instance:com.lrn.cat.tc.AddLessonTC1@5e25a92e] output={null}]]]>
               </value>
             </param>
           </params>
@@ -347,15 +347,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddLessonTC1 -->
       <class name="com.lrn.cat.tc.AddLessonTC2">
-        <test-method status="PASS" signature="CatAddLesson()[pri:0, instance:com.lrn.cat.tc.AddLessonTC2@282003e1]" name="CatAddLesson" duration-ms="13548" started-at="2017-06-23T13:14:16Z" finished-at="2017-06-23T13:14:29Z">
+        <test-method status="PASS" signature="CatAddLesson()[pri:0, instance:com.lrn.cat.tc.AddLessonTC2@76329302]" name="CatAddLesson" duration-ms="13488" started-at="2017-06-26T08:14:11Z" finished-at="2017-06-26T08:14:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddLesson -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddLessonTC2@282003e1]" name="updateResult" is-config="true" duration-ms="23" started-at="2017-06-23T13:14:29Z" finished-at="2017-06-23T13:14:29Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddLessonTC2@76329302]" name="updateResult" is-config="true" duration-ms="30" started-at="2017-06-26T08:14:24Z" finished-at="2017-06-26T08:14:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddLesson status=SUCCESS method=AddLessonTC2.CatAddLesson()[pri:0, instance:com.lrn.cat.tc.AddLessonTC2@282003e1] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddLesson status=SUCCESS method=AddLessonTC2.CatAddLesson()[pri:0, instance:com.lrn.cat.tc.AddLessonTC2@76329302] output={null}]]]>
               </value>
             </param>
           </params>
@@ -364,7 +364,7 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddLessonTC2 -->
       <class name="com.lrn.cat.tc.CopyNodeTC">
-        <test-method status="PASS" signature="startWebDriver(java.lang.String)[pri:0, instance:com.lrn.cat.tc.CopyNodeTC@3d8314f0]" name="startWebDriver" is-config="true" duration-ms="4602" started-at="2017-06-23T12:56:08Z" finished-at="2017-06-23T12:56:12Z">
+        <test-method status="PASS" signature="startWebDriver(java.lang.String)[pri:0, instance:com.lrn.cat.tc.CopyNodeTC@530612ba]" name="startWebDriver" is-config="true" duration-ms="4668" started-at="2017-06-26T07:56:24Z" finished-at="2017-06-26T07:56:29Z">
           <params>
             <param index="0">
               <value>
@@ -375,36 +375,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="CatCopyNode()[pri:0, instance:com.lrn.cat.tc.CopyNodeTC@3d8314f0]" name="CatCopyNode" duration-ms="31684" started-at="2017-06-23T13:34:23Z" finished-at="2017-06-23T13:34:55Z">
+        <test-method status="PASS" signature="CatCopyNode()[pri:0, instance:com.lrn.cat.tc.CopyNodeTC@530612ba]" name="CatCopyNode" duration-ms="31538" started-at="2017-06-26T08:34:07Z" finished-at="2017-06-26T08:34:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatCopyNode -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.CopyNodeTC@3d8314f0]" name="updateResult" is-config="true" duration-ms="24" started-at="2017-06-23T13:34:55Z" finished-at="2017-06-23T13:34:55Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.CopyNodeTC@530612ba]" name="updateResult" is-config="true" duration-ms="24" started-at="2017-06-26T08:34:39Z" finished-at="2017-06-26T08:34:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatCopyNode status=SUCCESS method=CopyNodeTC.CatCopyNode()[pri:0, instance:com.lrn.cat.tc.CopyNodeTC@3d8314f0] output={null}]]]>
+                <![CDATA[[TestResult name=CatCopyNode status=SUCCESS method=CopyNodeTC.CatCopyNode()[pri:0, instance:com.lrn.cat.tc.CopyNodeTC@530612ba] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateResult -->
-        <test-method status="PASS" signature="endClass()[pri:0, instance:com.lrn.cat.tc.CopyNodeTC@3d8314f0]" name="endClass" is-config="true" duration-ms="7742" started-at="2017-06-23T13:45:26Z" finished-at="2017-06-23T13:45:34Z">
+        <test-method status="PASS" signature="endClass()[pri:0, instance:com.lrn.cat.tc.CopyNodeTC@530612ba]" name="endClass" is-config="true" duration-ms="5133" started-at="2017-06-26T08:45:26Z" finished-at="2017-06-26T08:45:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endClass -->
       </class> <!-- com.lrn.cat.tc.CopyNodeTC -->
       <class name="com.lrn.cat.tc.SidebarTemplateTC">
-        <test-method status="PASS" signature="SidebarPageTC()[pri:0, instance:com.lrn.cat.tc.SidebarTemplateTC@1dd02175]" name="SidebarPageTC" duration-ms="51821" started-at="2017-06-23T13:13:24Z" finished-at="2017-06-23T13:14:16Z">
+        <test-method status="PASS" signature="SidebarPageTC()[pri:0, instance:com.lrn.cat.tc.SidebarTemplateTC@3ffcd140]" name="SidebarPageTC" duration-ms="51356" started-at="2017-06-26T08:13:19Z" finished-at="2017-06-26T08:14:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SidebarPageTC -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.SidebarTemplateTC@1dd02175]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-23T13:14:16Z" finished-at="2017-06-23T13:14:16Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.SidebarTemplateTC@3ffcd140]" name="updateResult" is-config="true" duration-ms="24" started-at="2017-06-26T08:14:11Z" finished-at="2017-06-26T08:14:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SidebarPageTC status=SUCCESS method=SidebarTemplateTC.SidebarPageTC()[pri:0, instance:com.lrn.cat.tc.SidebarTemplateTC@1dd02175] output={null}]]]>
+                <![CDATA[[TestResult name=SidebarPageTC status=SUCCESS method=SidebarTemplateTC.SidebarPageTC()[pri:0, instance:com.lrn.cat.tc.SidebarTemplateTC@3ffcd140] output={null}]]]>
               </value>
             </param>
           </params>
@@ -413,15 +413,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.SidebarTemplateTC -->
       <class name="com.lrn.cat.tc.LogoutTC">
-        <test-method status="PASS" signature="CatLogicTC()[pri:0, instance:com.lrn.cat.tc.LogoutTC@76a4d6c]" name="CatLogicTC" duration-ms="2973" started-at="2017-06-23T13:45:23Z" finished-at="2017-06-23T13:45:26Z">
+        <test-method status="PASS" signature="CatLogicTC()[pri:0, instance:com.lrn.cat.tc.LogoutTC@2bbaf4f0]" name="CatLogicTC" duration-ms="3158" started-at="2017-06-26T08:45:22Z" finished-at="2017-06-26T08:45:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatLogicTC -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.LogoutTC@76a4d6c]" name="updateResult" is-config="true" duration-ms="22" started-at="2017-06-23T13:45:26Z" finished-at="2017-06-23T13:45:26Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.LogoutTC@2bbaf4f0]" name="updateResult" is-config="true" duration-ms="23" started-at="2017-06-26T08:45:26Z" finished-at="2017-06-26T08:45:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatLogicTC status=SUCCESS method=LogoutTC.CatLogicTC()[pri:0, instance:com.lrn.cat.tc.LogoutTC@76a4d6c] output={null}]]]>
+                <![CDATA[[TestResult name=CatLogicTC status=SUCCESS method=LogoutTC.CatLogicTC()[pri:0, instance:com.lrn.cat.tc.LogoutTC@2bbaf4f0] output={null}]]]>
               </value>
             </param>
           </params>
@@ -430,15 +430,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.LogoutTC -->
       <class name="com.lrn.cat.tc.TileMenuTC">
-        <test-method status="PASS" signature="CatTileMenu()[pri:0, instance:com.lrn.cat.tc.TileMenuTC@70beb599]" name="CatTileMenu" duration-ms="106423" started-at="2017-06-23T13:39:11Z" finished-at="2017-06-23T13:40:57Z">
+        <test-method status="PASS" signature="CatTileMenu()[pri:0, instance:com.lrn.cat.tc.TileMenuTC@33cb5951]" name="CatTileMenu" duration-ms="103584" started-at="2017-06-26T08:38:42Z" finished-at="2017-06-26T08:40:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatTileMenu -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.TileMenuTC@70beb599]" name="updateResult" is-config="true" duration-ms="21" started-at="2017-06-23T13:40:57Z" finished-at="2017-06-23T13:40:57Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.TileMenuTC@33cb5951]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-26T08:40:25Z" finished-at="2017-06-26T08:40:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatTileMenu status=SUCCESS method=TileMenuTC.CatTileMenu()[pri:0, instance:com.lrn.cat.tc.TileMenuTC@70beb599] output={null}]]]>
+                <![CDATA[[TestResult name=CatTileMenu status=SUCCESS method=TileMenuTC.CatTileMenu()[pri:0, instance:com.lrn.cat.tc.TileMenuTC@33cb5951] output={null}]]]>
               </value>
             </param>
           </params>
@@ -447,15 +447,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.TileMenuTC -->
       <class name="com.lrn.cat.tc.AddPageTC1">
-        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC1@2d127a61]" name="CatAddPage" duration-ms="14822" started-at="2017-06-23T12:59:18Z" finished-at="2017-06-23T12:59:33Z">
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC1@70beb599]" name="CatAddPage" duration-ms="14833" started-at="2017-06-26T07:59:21Z" finished-at="2017-06-26T07:59:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC1@2d127a61]" name="updateResult" is-config="true" duration-ms="26" started-at="2017-06-23T12:59:33Z" finished-at="2017-06-23T12:59:33Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC1@70beb599]" name="updateResult" is-config="true" duration-ms="35" started-at="2017-06-26T07:59:36Z" finished-at="2017-06-26T07:59:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC1.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC1@2d127a61] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC1.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC1@70beb599] output={null}]]]>
               </value>
             </param>
           </params>
@@ -464,15 +464,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddPageTC1 -->
       <class name="com.lrn.cat.tc.AddPageTC2">
-        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC2@46238e3f]" name="CatAddPage" duration-ms="14911" started-at="2017-06-23T13:00:34Z" finished-at="2017-06-23T13:00:49Z">
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC2@32464a14]" name="CatAddPage" duration-ms="14817" started-at="2017-06-26T08:00:37Z" finished-at="2017-06-26T08:00:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC2@46238e3f]" name="updateResult" is-config="true" duration-ms="29" started-at="2017-06-23T13:00:49Z" finished-at="2017-06-23T13:00:49Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC2@32464a14]" name="updateResult" is-config="true" duration-ms="27" started-at="2017-06-26T08:00:51Z" finished-at="2017-06-26T08:00:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC2.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC2@46238e3f] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC2.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC2@32464a14] output={null}]]]>
               </value>
             </param>
           </params>
@@ -481,15 +481,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddPageTC2 -->
       <class name="com.lrn.cat.tc.EditDragAndDropTemplateTC">
-        <test-method status="PASS" signature="CatEditDragAndDropTemplate()[pri:0, instance:com.lrn.cat.tc.EditDragAndDropTemplateTC@276438c9]" name="CatEditDragAndDropTemplate" duration-ms="120041" started-at="2017-06-23T13:14:44Z" finished-at="2017-06-23T13:16:44Z">
+        <test-method status="PASS" signature="CatEditDragAndDropTemplate()[pri:0, instance:com.lrn.cat.tc.EditDragAndDropTemplateTC@33b37288]" name="CatEditDragAndDropTemplate" duration-ms="118891" started-at="2017-06-26T08:14:39Z" finished-at="2017-06-26T08:16:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatEditDragAndDropTemplate -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditDragAndDropTemplateTC@276438c9]" name="updateResult" is-config="true" duration-ms="23" started-at="2017-06-23T13:16:44Z" finished-at="2017-06-23T13:16:44Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditDragAndDropTemplateTC@33b37288]" name="updateResult" is-config="true" duration-ms="19" started-at="2017-06-26T08:16:38Z" finished-at="2017-06-26T08:16:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatEditDragAndDropTemplate status=SUCCESS method=EditDragAndDropTemplateTC.CatEditDragAndDropTemplate()[pri:0, instance:com.lrn.cat.tc.EditDragAndDropTemplateTC@276438c9] output={null}]]]>
+                <![CDATA[[TestResult name=CatEditDragAndDropTemplate status=SUCCESS method=EditDragAndDropTemplateTC.CatEditDragAndDropTemplate()[pri:0, instance:com.lrn.cat.tc.EditDragAndDropTemplateTC@33b37288] output={null}]]]>
               </value>
             </param>
           </params>
@@ -498,15 +498,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.EditDragAndDropTemplateTC -->
       <class name="com.lrn.cat.tc.EditCertificationTC">
-        <test-method status="PASS" signature="CatEditCertificationTC()[pri:0, instance:com.lrn.cat.tc.EditCertificationTC@679b62af]" name="CatEditCertificationTC" duration-ms="158071" started-at="2017-06-23T13:36:33Z" finished-at="2017-06-23T13:39:11Z">
+        <test-method status="PASS" signature="CatEditCertificationTC()[pri:0, instance:com.lrn.cat.tc.EditCertificationTC@d6da883]" name="CatEditCertificationTC" duration-ms="156925" started-at="2017-06-26T08:36:05Z" finished-at="2017-06-26T08:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatEditCertificationTC -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditCertificationTC@679b62af]" name="updateResult" is-config="true" duration-ms="22" started-at="2017-06-23T13:39:11Z" finished-at="2017-06-23T13:39:11Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditCertificationTC@d6da883]" name="updateResult" is-config="true" duration-ms="37" started-at="2017-06-26T08:38:42Z" finished-at="2017-06-26T08:38:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatEditCertificationTC status=SUCCESS method=EditCertificationTC.CatEditCertificationTC()[pri:0, instance:com.lrn.cat.tc.EditCertificationTC@679b62af] output={null}]]]>
+                <![CDATA[[TestResult name=CatEditCertificationTC status=SUCCESS method=EditCertificationTC.CatEditCertificationTC()[pri:0, instance:com.lrn.cat.tc.EditCertificationTC@d6da883] output={null}]]]>
               </value>
             </param>
           </params>
@@ -515,15 +515,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.EditCertificationTC -->
       <class name="com.lrn.cat.tc.AddPageTC9">
-        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC9@5cdd8682]" name="CatAddPage" duration-ms="14948" started-at="2017-06-23T13:14:29Z" finished-at="2017-06-23T13:14:44Z">
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC9@45afc369]" name="CatAddPage" duration-ms="14827" started-at="2017-06-26T08:14:24Z" finished-at="2017-06-26T08:14:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC9@5cdd8682]" name="updateResult" is-config="true" duration-ms="26" started-at="2017-06-23T13:14:44Z" finished-at="2017-06-23T13:14:44Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC9@45afc369]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-26T08:14:39Z" finished-at="2017-06-26T08:14:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC9.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC9@5cdd8682] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC9.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC9@45afc369] output={null}]]]>
               </value>
             </param>
           </params>
@@ -532,15 +532,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddPageTC9 -->
       <class name="com.lrn.cat.tc.AddPageTC7">
-        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC7@1efee8e7]" name="CatAddPage" duration-ms="15049" started-at="2017-06-23T13:09:53Z" finished-at="2017-06-23T13:10:08Z">
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC7@76a4d6c]" name="CatAddPage" duration-ms="14991" started-at="2017-06-26T08:09:50Z" finished-at="2017-06-26T08:10:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC7@1efee8e7]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-23T13:10:08Z" finished-at="2017-06-23T13:10:08Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC7@76a4d6c]" name="updateResult" is-config="true" duration-ms="25" started-at="2017-06-26T08:10:05Z" finished-at="2017-06-26T08:10:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC7.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC7@1efee8e7] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC7.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC7@76a4d6c] output={null}]]]>
               </value>
             </param>
           </params>
@@ -549,15 +549,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddPageTC7 -->
       <class name="com.lrn.cat.tc.AddPageTC8">
-        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC8@69a10787]" name="CatAddPage" duration-ms="15038" started-at="2017-06-23T13:13:09Z" finished-at="2017-06-23T13:13:24Z">
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC8@11c20519]" name="CatAddPage" duration-ms="15016" started-at="2017-06-26T08:13:04Z" finished-at="2017-06-26T08:13:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC8@69a10787]" name="updateResult" is-config="true" duration-ms="24" started-at="2017-06-23T13:13:24Z" finished-at="2017-06-23T13:13:24Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC8@11c20519]" name="updateResult" is-config="true" duration-ms="23" started-at="2017-06-26T08:13:19Z" finished-at="2017-06-26T08:13:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC8.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC8@69a10787] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC8.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC8@11c20519] output={null}]]]>
               </value>
             </param>
           </params>
@@ -565,50 +565,16 @@
           </reporter-output>
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddPageTC8 -->
-      <class name="com.lrn.cat.tc.EditTextTemplateTC">
-        <test-method status="PASS" signature="CatEditTextTemplate()[pri:0, instance:com.lrn.cat.tc.EditTextTemplateTC@6e2c9341]" name="CatEditTextTemplate" duration-ms="41678" started-at="2017-06-23T13:03:17Z" finished-at="2017-06-23T13:03:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CatEditTextTemplate -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditTextTemplateTC@6e2c9341]" name="updateResult" is-config="true" duration-ms="33" started-at="2017-06-23T13:03:59Z" finished-at="2017-06-23T13:03:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=CatEditTextTemplate status=SUCCESS method=EditTextTemplateTC.CatEditTextTemplate()[pri:0, instance:com.lrn.cat.tc.EditTextTemplateTC@6e2c9341] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateResult -->
-      </class> <!-- com.lrn.cat.tc.EditTextTemplateTC -->
-      <class name="com.lrn.cat.tc.EditMultipleScenarioTemplateTC">
-        <test-method status="PASS" signature="CatEditMultipleScenarioTemplateTC()[pri:0, instance:com.lrn.cat.tc.EditMultipleScenarioTemplateTC@17776a8]" name="CatEditMultipleScenarioTemplateTC" duration-ms="307584" started-at="2017-06-23T13:19:24Z" finished-at="2017-06-23T13:24:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CatEditMultipleScenarioTemplateTC -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditMultipleScenarioTemplateTC@17776a8]" name="updateResult" is-config="true" duration-ms="26" started-at="2017-06-23T13:24:31Z" finished-at="2017-06-23T13:24:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=CatEditMultipleScenarioTemplateTC status=SUCCESS method=EditMultipleScenarioTemplateTC.CatEditMultipleScenarioTemplateTC()[pri:0, instance:com.lrn.cat.tc.EditMultipleScenarioTemplateTC@17776a8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateResult -->
-      </class> <!-- com.lrn.cat.tc.EditMultipleScenarioTemplateTC -->
       <class name="com.lrn.cat.tc.AddPageTC5">
-        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC5@45afc369]" name="CatAddPage" duration-ms="14822" started-at="2017-06-23T13:05:38Z" finished-at="2017-06-23T13:05:52Z">
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC5@49c43f4e]" name="CatAddPage" duration-ms="14860" started-at="2017-06-26T08:05:36Z" finished-at="2017-06-26T08:05:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC5@45afc369]" name="updateResult" is-config="true" duration-ms="23" started-at="2017-06-23T13:05:52Z" finished-at="2017-06-23T13:05:52Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC5@49c43f4e]" name="updateResult" is-config="true" duration-ms="24" started-at="2017-06-26T08:05:51Z" finished-at="2017-06-26T08:05:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC5.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC5@45afc369] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC5.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC5@49c43f4e] output={null}]]]>
               </value>
             </param>
           </params>
@@ -616,16 +582,67 @@
           </reporter-output>
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddPageTC5 -->
-      <class name="com.lrn.cat.tc.SelectableImageTC">
-        <test-method status="PASS" signature="SelectableImagePageTC()[pri:0, instance:com.lrn.cat.tc.SelectableImageTC@62fdb4a6]" name="SelectableImagePageTC" duration-ms="129194" started-at="2017-06-23T13:16:59Z" finished-at="2017-06-23T13:19:09Z">
+      <class name="com.lrn.cat.tc.EditTextTemplateTC">
+        <test-method status="PASS" signature="CatEditTextTemplate()[pri:0, instance:com.lrn.cat.tc.EditTextTemplateTC@4e4aea35]" name="CatEditTextTemplate" duration-ms="41449" started-at="2017-06-26T08:03:20Z" finished-at="2017-06-26T08:04:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectableImagePageTC -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.SelectableImageTC@62fdb4a6]" name="updateResult" is-config="true" duration-ms="28" started-at="2017-06-23T13:19:09Z" finished-at="2017-06-23T13:19:09Z">
+        </test-method> <!-- CatEditTextTemplate -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditTextTemplateTC@4e4aea35]" name="updateResult" is-config="true" duration-ms="34" started-at="2017-06-26T08:04:01Z" finished-at="2017-06-26T08:04:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SelectableImagePageTC status=SUCCESS method=SelectableImageTC.SelectableImagePageTC()[pri:0, instance:com.lrn.cat.tc.SelectableImageTC@62fdb4a6] output={null}]]]>
+                <![CDATA[[TestResult name=CatEditTextTemplate status=SUCCESS method=EditTextTemplateTC.CatEditTextTemplate()[pri:0, instance:com.lrn.cat.tc.EditTextTemplateTC@4e4aea35] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+      </class> <!-- com.lrn.cat.tc.EditTextTemplateTC -->
+      <class name="com.lrn.cat.tc.ReorderNodesTC">
+        <test-method status="PASS" signature="CatReorderNodes()[pri:0, instance:com.lrn.cat.tc.ReorderNodesTC@71a794e5]" name="CatReorderNodes" duration-ms="39986" started-at="2017-06-26T08:43:42Z" finished-at="2017-06-26T08:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatReorderNodes -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.ReorderNodesTC@71a794e5]" name="updateResult" is-config="true" duration-ms="22" started-at="2017-06-26T08:44:22Z" finished-at="2017-06-26T08:44:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CatReorderNodes status=SUCCESS method=ReorderNodesTC.CatReorderNodes()[pri:0, instance:com.lrn.cat.tc.ReorderNodesTC@71a794e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+      </class> <!-- com.lrn.cat.tc.ReorderNodesTC -->
+      <class name="com.lrn.cat.tc.EditMultipleScenarioTemplateTC">
+        <test-method status="PASS" signature="CatEditMultipleScenarioTemplateTC()[pri:0, instance:com.lrn.cat.tc.EditMultipleScenarioTemplateTC@2d127a61]" name="CatEditMultipleScenarioTemplateTC" duration-ms="304697" started-at="2017-06-26T08:19:17Z" finished-at="2017-06-26T08:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatEditMultipleScenarioTemplateTC -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditMultipleScenarioTemplateTC@2d127a61]" name="updateResult" is-config="true" duration-ms="22" started-at="2017-06-26T08:24:21Z" finished-at="2017-06-26T08:24:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CatEditMultipleScenarioTemplateTC status=SUCCESS method=EditMultipleScenarioTemplateTC.CatEditMultipleScenarioTemplateTC()[pri:0, instance:com.lrn.cat.tc.EditMultipleScenarioTemplateTC@2d127a61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+      </class> <!-- com.lrn.cat.tc.EditMultipleScenarioTemplateTC -->
+      <class name="com.lrn.cat.tc.SelectableImageTC">
+        <test-method status="PASS" signature="SelectableImagePageTC()[pri:0, instance:com.lrn.cat.tc.SelectableImageTC@31206beb]" name="SelectableImagePageTC" duration-ms="128534" started-at="2017-06-26T08:16:53Z" finished-at="2017-06-26T08:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectableImagePageTC -->
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.SelectableImageTC@31206beb]" name="updateResult" is-config="true" duration-ms="26" started-at="2017-06-26T08:19:02Z" finished-at="2017-06-26T08:19:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectableImagePageTC status=SUCCESS method=SelectableImageTC.SelectableImagePageTC()[pri:0, instance:com.lrn.cat.tc.SelectableImageTC@31206beb] output={null}]]]>
               </value>
             </param>
           </params>
@@ -634,15 +651,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.SelectableImageTC -->
       <class name="com.lrn.cat.tc.AddPageTC6">
-        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC6@1442d7b5]" name="CatAddPage" duration-ms="14821" started-at="2017-06-23T13:07:34Z" finished-at="2017-06-23T13:07:49Z">
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC6@1ee807c6]" name="CatAddPage" duration-ms="14842" started-at="2017-06-26T08:07:32Z" finished-at="2017-06-26T08:07:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC6@1442d7b5]" name="updateResult" is-config="true" duration-ms="21" started-at="2017-06-23T13:07:49Z" finished-at="2017-06-23T13:07:49Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC6@1ee807c6]" name="updateResult" is-config="true" duration-ms="22" started-at="2017-06-26T08:07:47Z" finished-at="2017-06-26T08:07:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC6.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC6@1442d7b5] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC6.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC6@1ee807c6] output={null}]]]>
               </value>
             </param>
           </params>
@@ -651,15 +668,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddPageTC6 -->
       <class name="com.lrn.cat.tc.LandingPageTC">
-        <test-method status="PASS" signature="CatLandingPage()[pri:0, instance:com.lrn.cat.tc.LandingPageTC@23bb8443]" name="CatLandingPage" duration-ms="34749" started-at="2017-06-23T13:35:58Z" finished-at="2017-06-23T13:36:33Z">
+        <test-method status="PASS" signature="CatLandingPage()[pri:0, instance:com.lrn.cat.tc.LandingPageTC@4ba2ca36]" name="CatLandingPage" duration-ms="35177" started-at="2017-06-26T08:35:30Z" finished-at="2017-06-26T08:36:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatLandingPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.LandingPageTC@23bb8443]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-23T13:36:33Z" finished-at="2017-06-23T13:36:33Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.LandingPageTC@4ba2ca36]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-26T08:36:05Z" finished-at="2017-06-26T08:36:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatLandingPage status=SUCCESS method=LandingPageTC.CatLandingPage()[pri:0, instance:com.lrn.cat.tc.LandingPageTC@23bb8443] output={null}]]]>
+                <![CDATA[[TestResult name=CatLandingPage status=SUCCESS method=LandingPageTC.CatLandingPage()[pri:0, instance:com.lrn.cat.tc.LandingPageTC@4ba2ca36] output={null}]]]>
               </value>
             </param>
           </params>
@@ -668,15 +685,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.LandingPageTC -->
       <class name="com.lrn.cat.tc.AddPageTC3">
-        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC3@4e4aea35]" name="CatAddPage" duration-ms="14859" started-at="2017-06-23T13:03:02Z" finished-at="2017-06-23T13:03:17Z">
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC3@1efee8e7]" name="CatAddPage" duration-ms="14859" started-at="2017-06-26T08:03:05Z" finished-at="2017-06-26T08:03:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC3@4e4aea35]" name="updateResult" is-config="true" duration-ms="29" started-at="2017-06-23T13:03:17Z" finished-at="2017-06-23T13:03:17Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC3@1efee8e7]" name="updateResult" is-config="true" duration-ms="28" started-at="2017-06-26T08:03:20Z" finished-at="2017-06-26T08:03:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC3.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC3@4e4aea35] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC3.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC3@1efee8e7] output={null}]]]>
               </value>
             </param>
           </params>
@@ -685,15 +702,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddPageTC3 -->
       <class name="com.lrn.cat.tc.CreateCourseTC">
-        <test-method status="PASS" signature="CatCreateCourseTC()[pri:0, instance:com.lrn.cat.tc.CreateCourseTC@799d4f69]" name="CatCreateCourseTC" duration-ms="35895" started-at="2017-06-23T12:56:23Z" finished-at="2017-06-23T12:56:59Z">
+        <test-method status="PASS" signature="CatCreateCourseTC()[pri:0, instance:com.lrn.cat.tc.CreateCourseTC@290dbf45]" name="CatCreateCourseTC" duration-ms="25227" started-at="2017-06-26T07:56:37Z" finished-at="2017-06-26T07:57:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatCreateCourseTC -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.CreateCourseTC@799d4f69]" name="updateResult" is-config="true" duration-ms="77" started-at="2017-06-23T12:56:59Z" finished-at="2017-06-23T12:56:59Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.CreateCourseTC@290dbf45]" name="updateResult" is-config="true" duration-ms="46" started-at="2017-06-26T07:57:02Z" finished-at="2017-06-26T07:57:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatCreateCourseTC status=SUCCESS method=CreateCourseTC.CatCreateCourseTC()[pri:0, instance:com.lrn.cat.tc.CreateCourseTC@799d4f69] output={null}]]]>
+                <![CDATA[[TestResult name=CatCreateCourseTC status=SUCCESS method=CreateCourseTC.CatCreateCourseTC()[pri:0, instance:com.lrn.cat.tc.CreateCourseTC@290dbf45] output={null}]]]>
               </value>
             </param>
           </params>
@@ -702,15 +719,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.CreateCourseTC -->
       <class name="com.lrn.cat.tc.AddPageTC4">
-        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC4@7181ae3f]" name="CatAddPage" duration-ms="14839" started-at="2017-06-23T13:03:59Z" finished-at="2017-06-23T13:04:14Z">
+        <test-method status="PASS" signature="CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC4@6e2c9341]" name="CatAddPage" duration-ms="14814" started-at="2017-06-26T08:04:01Z" finished-at="2017-06-26T08:04:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC4@7181ae3f]" name="updateResult" is-config="true" duration-ms="22" started-at="2017-06-23T13:04:14Z" finished-at="2017-06-23T13:04:14Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddPageTC4@6e2c9341]" name="updateResult" is-config="true" duration-ms="23" started-at="2017-06-26T08:04:16Z" finished-at="2017-06-26T08:04:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC4.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC4@7181ae3f] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddPage status=SUCCESS method=AddPageTC4.CatAddPage()[pri:0, instance:com.lrn.cat.tc.AddPageTC4@6e2c9341] output={null}]]]>
               </value>
             </param>
           </params>
@@ -719,15 +736,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddPageTC4 -->
       <class name="com.lrn.cat.tc.ExportToWordTC">
-        <test-method status="PASS" signature="CatExportToWord()[pri:0, instance:com.lrn.cat.tc.ExportToWordTC@4148db48]" name="CatExportToWord" duration-ms="19727" started-at="2017-06-23T13:44:21Z" finished-at="2017-06-23T13:44:41Z">
+        <test-method status="PASS" signature="CatExportToWord()[pri:0, instance:com.lrn.cat.tc.ExportToWordTC@4df828d7]" name="CatExportToWord" duration-ms="20484" started-at="2017-06-26T08:44:22Z" finished-at="2017-06-26T08:44:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatExportToWord -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.ExportToWordTC@4148db48]" name="updateResult" is-config="true" duration-ms="22" started-at="2017-06-23T13:44:41Z" finished-at="2017-06-23T13:44:41Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.ExportToWordTC@4df828d7]" name="updateResult" is-config="true" duration-ms="28" started-at="2017-06-26T08:44:42Z" finished-at="2017-06-26T08:44:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatExportToWord status=SUCCESS method=ExportToWordTC.CatExportToWord()[pri:0, instance:com.lrn.cat.tc.ExportToWordTC@4148db48] output={null}]]]>
+                <![CDATA[[TestResult name=CatExportToWord status=SUCCESS method=ExportToWordTC.CatExportToWord()[pri:0, instance:com.lrn.cat.tc.ExportToWordTC@4df828d7] output={null}]]]>
               </value>
             </param>
           </params>
@@ -736,15 +753,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.ExportToWordTC -->
       <class name="com.lrn.cat.tc.AddLessonTC">
-        <test-method status="PASS" signature="CatAddLesson()[pri:0, instance:com.lrn.cat.tc.AddLessonTC@76329302]" name="CatAddLesson" duration-ms="12858" started-at="2017-06-23T12:56:59Z" finished-at="2017-06-23T12:57:12Z">
+        <test-method status="PASS" signature="CatAddLesson()[pri:0, instance:com.lrn.cat.tc.AddLessonTC@b59d31]" name="CatAddLesson" duration-ms="12845" started-at="2017-06-26T07:57:02Z" finished-at="2017-06-26T07:57:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddLesson -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddLessonTC@76329302]" name="updateResult" is-config="true" duration-ms="29" started-at="2017-06-23T12:57:12Z" finished-at="2017-06-23T12:57:12Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddLessonTC@b59d31]" name="updateResult" is-config="true" duration-ms="29" started-at="2017-06-26T07:57:15Z" finished-at="2017-06-26T07:57:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddLesson status=SUCCESS method=AddLessonTC.CatAddLesson()[pri:0, instance:com.lrn.cat.tc.AddLessonTC@76329302] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddLesson status=SUCCESS method=AddLessonTC.CatAddLesson()[pri:0, instance:com.lrn.cat.tc.AddLessonTC@b59d31] output={null}]]]>
               </value>
             </param>
           </params>
@@ -753,15 +770,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddLessonTC -->
       <class name="com.lrn.cat.tc.AddTopicTC">
-        <test-method status="PASS" signature="CatAddTopic()[pri:0, instance:com.lrn.cat.tc.AddTopicTC@33cb5951]" name="CatAddTopic" duration-ms="7035" started-at="2017-06-23T12:57:12Z" finished-at="2017-06-23T12:57:19Z">
+        <test-method status="PASS" signature="CatAddTopic()[pri:0, instance:com.lrn.cat.tc.AddTopicTC@4148db48]" name="CatAddTopic" duration-ms="7127" started-at="2017-06-26T07:57:15Z" finished-at="2017-06-26T07:57:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatAddTopic -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddTopicTC@33cb5951]" name="updateResult" is-config="true" duration-ms="26" started-at="2017-06-23T12:57:19Z" finished-at="2017-06-23T12:57:19Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.AddTopicTC@4148db48]" name="updateResult" is-config="true" duration-ms="37" started-at="2017-06-26T07:57:22Z" finished-at="2017-06-26T07:57:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatAddTopic status=SUCCESS method=AddTopicTC.CatAddTopic()[pri:0, instance:com.lrn.cat.tc.AddTopicTC@33cb5951] output={null}]]]>
+                <![CDATA[[TestResult name=CatAddTopic status=SUCCESS method=AddTopicTC.CatAddTopic()[pri:0, instance:com.lrn.cat.tc.AddTopicTC@4148db48] output={null}]]]>
               </value>
             </param>
           </params>
@@ -770,15 +787,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.AddTopicTC -->
       <class name="com.lrn.cat.tc.EditConsentTemplateTC">
-        <test-method status="PASS" signature="CatEditConsentTemplate()[pri:0, instance:com.lrn.cat.tc.EditConsentTemplateTC@3e77a1ed]" name="CatEditConsentTemplate" duration-ms="60623" started-at="2017-06-23T12:59:33Z" finished-at="2017-06-23T13:00:34Z">
+        <test-method status="PASS" signature="CatEditConsentTemplate()[pri:0, instance:com.lrn.cat.tc.EditConsentTemplateTC@1176dcec]" name="CatEditConsentTemplate" duration-ms="60458" started-at="2017-06-26T07:59:36Z" finished-at="2017-06-26T08:00:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatEditConsentTemplate -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditConsentTemplateTC@3e77a1ed]" name="updateResult" is-config="true" duration-ms="30" started-at="2017-06-23T13:00:34Z" finished-at="2017-06-23T13:00:34Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditConsentTemplateTC@1176dcec]" name="updateResult" is-config="true" duration-ms="27" started-at="2017-06-26T08:00:37Z" finished-at="2017-06-26T08:00:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatEditConsentTemplate status=SUCCESS method=EditConsentTemplateTC.CatEditConsentTemplate()[pri:0, instance:com.lrn.cat.tc.EditConsentTemplateTC@3e77a1ed] output={null}]]]>
+                <![CDATA[[TestResult name=CatEditConsentTemplate status=SUCCESS method=EditConsentTemplateTC.CatEditConsentTemplate()[pri:0, instance:com.lrn.cat.tc.EditConsentTemplateTC@1176dcec] output={null}]]]>
               </value>
             </param>
           </params>
@@ -787,15 +804,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.EditConsentTemplateTC -->
       <class name="com.lrn.cat.tc.EditConsultTemplateTC">
-        <test-method status="PASS" signature="CatEditConsult()[pri:0, instance:com.lrn.cat.tc.EditConsultTemplateTC@b59d31]" name="CatEditConsult" duration-ms="123974" started-at="2017-06-23T13:07:49Z" finished-at="2017-06-23T13:09:53Z">
+        <test-method status="PASS" signature="CatEditConsult()[pri:0, instance:com.lrn.cat.tc.EditConsultTemplateTC@1dd02175]" name="CatEditConsult" duration-ms="123455" started-at="2017-06-26T08:07:47Z" finished-at="2017-06-26T08:09:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatEditConsult -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditConsultTemplateTC@b59d31]" name="updateResult" is-config="true" duration-ms="27" started-at="2017-06-23T13:09:53Z" finished-at="2017-06-23T13:09:53Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditConsultTemplateTC@1dd02175]" name="updateResult" is-config="true" duration-ms="20" started-at="2017-06-26T08:09:50Z" finished-at="2017-06-26T08:09:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatEditConsult status=SUCCESS method=EditConsultTemplateTC.CatEditConsult()[pri:0, instance:com.lrn.cat.tc.EditConsultTemplateTC@b59d31] output={null}]]]>
+                <![CDATA[[TestResult name=CatEditConsult status=SUCCESS method=EditConsultTemplateTC.CatEditConsult()[pri:0, instance:com.lrn.cat.tc.EditConsultTemplateTC@1dd02175] output={null}]]]>
               </value>
             </param>
           </params>
@@ -804,15 +821,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.EditConsultTemplateTC -->
       <class name="com.lrn.cat.tc.CreateTestOutLessonTC">
-        <test-method status="PASS" signature="CatCreateTestOutLesson()[pri:0, instance:com.lrn.cat.tc.CreateTestOutLessonTC@11e21d0e]" name="CatCreateTestOutLesson" duration-ms="205351" started-at="2017-06-23T13:28:00Z" finished-at="2017-06-23T13:31:25Z">
+        <test-method status="PASS" signature="CatCreateTestOutLesson()[pri:0, instance:com.lrn.cat.tc.CreateTestOutLessonTC@3e77a1ed]" name="CatCreateTestOutLesson" duration-ms="202789" started-at="2017-06-26T08:27:47Z" finished-at="2017-06-26T08:31:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatCreateTestOutLesson -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.CreateTestOutLessonTC@11e21d0e]" name="updateResult" is-config="true" duration-ms="30" started-at="2017-06-23T13:31:25Z" finished-at="2017-06-23T13:31:25Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.CreateTestOutLessonTC@3e77a1ed]" name="updateResult" is-config="true" duration-ms="26" started-at="2017-06-26T08:31:10Z" finished-at="2017-06-26T08:31:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatCreateTestOutLesson status=SUCCESS method=CreateTestOutLessonTC.CatCreateTestOutLesson()[pri:0, instance:com.lrn.cat.tc.CreateTestOutLessonTC@11e21d0e] output={null}]]]>
+                <![CDATA[[TestResult name=CatCreateTestOutLesson status=SUCCESS method=CreateTestOutLessonTC.CatCreateTestOutLesson()[pri:0, instance:com.lrn.cat.tc.CreateTestOutLessonTC@3e77a1ed] output={null}]]]>
               </value>
             </param>
           </params>
@@ -821,15 +838,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.CreateTestOutLessonTC -->
       <class name="com.lrn.cat.tc.PublishCourseTC">
-        <test-method status="PASS" signature="CatPublishCourse()[pri:0, instance:com.lrn.cat.tc.PublishCourseTC@3ffcd140]" name="CatPublishCourse" duration-ms="50650" started-at="2017-06-23T13:43:14Z" finished-at="2017-06-23T13:44:04Z">
+        <test-method status="PASS" signature="CatPublishCourse()[pri:0, instance:com.lrn.cat.tc.PublishCourseTC@120d6fe6]" name="CatPublishCourse" duration-ms="42584" started-at="2017-06-26T08:42:41Z" finished-at="2017-06-26T08:43:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatPublishCourse -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.PublishCourseTC@3ffcd140]" name="updateResult" is-config="true" duration-ms="21" started-at="2017-06-23T13:44:04Z" finished-at="2017-06-23T13:44:04Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.PublishCourseTC@120d6fe6]" name="updateResult" is-config="true" duration-ms="29" started-at="2017-06-26T08:43:23Z" finished-at="2017-06-26T08:43:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatPublishCourse status=SUCCESS method=PublishCourseTC.CatPublishCourse()[pri:0, instance:com.lrn.cat.tc.PublishCourseTC@3ffcd140] output={null}]]]>
+                <![CDATA[[TestResult name=CatPublishCourse status=SUCCESS method=PublishCourseTC.CatPublishCourse()[pri:0, instance:com.lrn.cat.tc.PublishCourseTC@120d6fe6] output={null}]]]>
               </value>
             </param>
           </params>
@@ -838,15 +855,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.PublishCourseTC -->
       <class name="com.lrn.cat.tc.HidePageTC">
-        <test-method status="PASS" signature="CatHidePage()[pri:0, instance:com.lrn.cat.tc.HidePageTC@12028586]" name="CatHidePage" duration-ms="33645" started-at="2017-06-23T13:33:28Z" finished-at="2017-06-23T13:34:02Z">
+        <test-method status="PASS" signature="CatHidePage()[pri:0, instance:com.lrn.cat.tc.HidePageTC@69a10787]" name="CatHidePage" duration-ms="33761" started-at="2017-06-26T08:33:12Z" finished-at="2017-06-26T08:33:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatHidePage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.HidePageTC@12028586]" name="updateResult" is-config="true" duration-ms="21" started-at="2017-06-23T13:34:02Z" finished-at="2017-06-23T13:34:02Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.HidePageTC@69a10787]" name="updateResult" is-config="true" duration-ms="22" started-at="2017-06-26T08:33:46Z" finished-at="2017-06-26T08:33:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatHidePage status=SUCCESS method=HidePageTC.CatHidePage()[pri:0, instance:com.lrn.cat.tc.HidePageTC@12028586] output={null}]]]>
+                <![CDATA[[TestResult name=CatHidePage status=SUCCESS method=HidePageTC.CatHidePage()[pri:0, instance:com.lrn.cat.tc.HidePageTC@69a10787] output={null}]]]>
               </value>
             </param>
           </params>
@@ -855,15 +872,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.HidePageTC -->
       <class name="com.lrn.cat.tc.EditVideoTemplateTC">
-        <test-method status="PASS" signature="CatEditVideoTemplate()[pri:0, instance:com.lrn.cat.tc.EditVideoTemplateTC@32cf48b7]" name="CatEditVideoTemplate" duration-ms="180340" started-at="2017-06-23T13:10:08Z" finished-at="2017-06-23T13:13:09Z">
+        <test-method status="PASS" signature="CatEditVideoTemplate()[pri:0, instance:com.lrn.cat.tc.EditVideoTemplateTC@5cdd8682]" name="CatEditVideoTemplate" duration-ms="179048" started-at="2017-06-26T08:10:05Z" finished-at="2017-06-26T08:13:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatEditVideoTemplate -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditVideoTemplateTC@32cf48b7]" name="updateResult" is-config="true" duration-ms="24" started-at="2017-06-23T13:13:09Z" finished-at="2017-06-23T13:13:09Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditVideoTemplateTC@5cdd8682]" name="updateResult" is-config="true" duration-ms="23" started-at="2017-06-26T08:13:04Z" finished-at="2017-06-26T08:13:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatEditVideoTemplate status=SUCCESS method=EditVideoTemplateTC.CatEditVideoTemplate()[pri:0, instance:com.lrn.cat.tc.EditVideoTemplateTC@32cf48b7] output={null}]]]>
+                <![CDATA[[TestResult name=CatEditVideoTemplate status=SUCCESS method=EditVideoTemplateTC.CatEditVideoTemplate()[pri:0, instance:com.lrn.cat.tc.EditVideoTemplateTC@5cdd8682] output={null}]]]>
               </value>
             </param>
           </params>
@@ -872,15 +889,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.EditVideoTemplateTC -->
       <class name="com.lrn.cat.tc.EditCarouselTemplateTC">
-        <test-method status="PASS" signature="CatEditCarouselTemplate()[pri:0, instance:com.lrn.cat.tc.EditCarouselTemplateTC@2bbaf4f0]" name="CatEditCarouselTemplate" duration-ms="94410" started-at="2017-06-23T13:05:52Z" finished-at="2017-06-23T13:07:27Z">
+        <test-method status="PASS" signature="CatEditCarouselTemplate()[pri:0, instance:com.lrn.cat.tc.EditCarouselTemplateTC@4e41089d]" name="CatEditCarouselTemplate" duration-ms="93626" started-at="2017-06-26T08:05:51Z" finished-at="2017-06-26T08:07:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatEditCarouselTemplate -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditCarouselTemplateTC@2bbaf4f0]" name="updateResult" is-config="true" duration-ms="21" started-at="2017-06-23T13:07:27Z" finished-at="2017-06-23T13:07:27Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditCarouselTemplateTC@4e41089d]" name="updateResult" is-config="true" duration-ms="21" started-at="2017-06-26T08:07:24Z" finished-at="2017-06-26T08:07:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatEditCarouselTemplate status=SUCCESS method=EditCarouselTemplateTC.CatEditCarouselTemplate()[pri:0, instance:com.lrn.cat.tc.EditCarouselTemplateTC@2bbaf4f0] output={null}]]]>
+                <![CDATA[[TestResult name=CatEditCarouselTemplate status=SUCCESS method=EditCarouselTemplateTC.CatEditCarouselTemplate()[pri:0, instance:com.lrn.cat.tc.EditCarouselTemplateTC@4e41089d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -889,15 +906,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.EditCarouselTemplateTC -->
       <class name="com.lrn.cat.tc.LockPageTC">
-        <test-method status="PASS" signature="CatLockPage()[pri:0, instance:com.lrn.cat.tc.LockPageTC@1176dcec]" name="CatLockPage" duration-ms="33388" started-at="2017-06-23T13:32:53Z" finished-at="2017-06-23T13:33:27Z">
+        <test-method status="PASS" signature="CatLockPage()[pri:0, instance:com.lrn.cat.tc.LockPageTC@3444d69d]" name="CatLockPage" duration-ms="33710" started-at="2017-06-26T08:32:37Z" finished-at="2017-06-26T08:33:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatLockPage -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.LockPageTC@1176dcec]" name="updateResult" is-config="true" duration-ms="22" started-at="2017-06-23T13:33:27Z" finished-at="2017-06-23T13:33:27Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.LockPageTC@3444d69d]" name="updateResult" is-config="true" duration-ms="26" started-at="2017-06-26T08:33:11Z" finished-at="2017-06-26T08:33:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatLockPage status=SUCCESS method=LockPageTC.CatLockPage()[pri:0, instance:com.lrn.cat.tc.LockPageTC@1176dcec] output={null}]]]>
+                <![CDATA[[TestResult name=CatLockPage status=SUCCESS method=LockPageTC.CatLockPage()[pri:0, instance:com.lrn.cat.tc.LockPageTC@3444d69d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -906,15 +923,15 @@
         </test-method> <!-- updateResult -->
       </class> <!-- com.lrn.cat.tc.LockPageTC -->
       <class name="com.lrn.cat.tc.EditConcernTemplateTC">
-        <test-method status="PASS" signature="CatEditConcerntTemplateTC()[pri:0, instance:com.lrn.cat.tc.EditConcernTemplateTC@77a57272]" name="CatEditConcerntTemplateTC" duration-ms="104430" started-at="2017-06-23T12:57:34Z" finished-at="2017-06-23T12:59:18Z">
+        <test-method status="PASS" signature="CatEditConcerntTemplateTC()[pri:0, instance:com.lrn.cat.tc.EditConcernTemplateTC@46238e3f]" name="CatEditConcerntTemplateTC" duration-ms="104522" started-at="2017-06-26T07:57:37Z" finished-at="2017-06-26T07:59:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CatEditConcerntTemplateTC -->
-        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditConcernTemplateTC@77a57272]" name="updateResult" is-config="true" duration-ms="30" started-at="2017-06-23T12:59:18Z" finished-at="2017-06-23T12:59:18Z">
+        <test-method status="PASS" signature="updateResult(org.testng.ITestResult)[pri:0, instance:com.lrn.cat.tc.EditConcernTemplateTC@46238e3f]" name="updateResult" is-config="true" duration-ms="40" started-at="2017-06-26T07:59:21Z" finished-at="2017-06-26T07:59:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CatEditConcerntTemplateTC status=SUCCESS method=EditConcernTemplateTC.CatEditConcerntTemplateTC()[pri:0, instance:com.lrn.cat.tc.EditConcernTemplateTC@77a57272] output={null}]]]>
+                <![CDATA[[TestResult name=CatEditConcerntTemplateTC status=SUCCESS method=EditConcernTemplateTC.CatEditConcerntTemplateTC()[pri:0, instance:com.lrn.cat.tc.EditConcernTemplateTC@46238e3f] output={null}]]]>
               </value>
             </param>
           </params>

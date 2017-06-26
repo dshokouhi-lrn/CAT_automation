@@ -29,17 +29,17 @@ public class SearchCourse extends CATAppCommon{
                   clickIdentifierXpath("//form/div/div/div/input");
                  
                   Thread.sleep(300);
-                  //     Assert.assertTrue(waitForElementPresentByLinkText("log out"));
-                  Log.pass("Searched course Successfully!!");
+
+                  Log.pass("Searched course successfully");
 
            }
            catch(Exception e){  
-                  Log.fail("Failed to serach course");
+                  Log.fail("Failed to search course");
                   e.printStackTrace();
                   throw e;                                        
            } catch(AssertionError e)
            {
-                  Log.fail("Failed to serach course");
+                  Log.fail("Failed to search course");
                   e.printStackTrace();
                   throw e;
 

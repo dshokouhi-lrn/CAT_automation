@@ -61,6 +61,7 @@
 			<class name= "com.lrn.cat.tc.PublishCourseTC" />
 			<class name= "com.lrn.cat.tc.SearchCourseTC" />
 			<class name= "com.lrn.cat.tc.EditGetStartedTC" />
+			<class name= "com.lrn.cat.tc.ReorderNodesTC" />
 			<class name= "com.lrn.cat.tc.ExportToWordTC" />
 			<class name= "com.lrn.cat.tc.PushToCDVTC" />
 <!-- 			<class name= "com.lrn.cat.tc.CheckInCourseTC" /> -->

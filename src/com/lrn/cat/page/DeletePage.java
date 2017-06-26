@@ -27,6 +27,7 @@ public class DeletePage extends CATAppCommon {
 			 // WebElement productLink11 = driver.findElement(By.xpath(".//*[@id='j1_7_anchor']"));
 			   Actions action= new Actions(driver);
 				  action.contextClick(productLink).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.RETURN).build().perform();
+				  Thread.sleep(2000);
 				  clickIdentifierXpath("html/body/ul/li[4]/a");
 				  Log.info("clicked on Delete");
 				  
