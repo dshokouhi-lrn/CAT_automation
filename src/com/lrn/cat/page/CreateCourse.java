@@ -2,6 +2,8 @@ package com.lrn.cat.page;
 
 import java.util.Date;
 
+import org.openqa.selenium.By;
+
 import com.lrn.cat.common.CATAppCommon;
 import com.lrn.pp.utility.Log;
 
@@ -14,8 +16,12 @@ public class CreateCourse extends CATAppCommon {
 			Date d = new Date();
 			
 			Log.startTestCase("Start create a course");
-			clickIdentifierXpath("//div[3]//a[1]");
-			Log.info("clicked on create your course button");
+			
+			if (isElementPresent(By.xpath("//div[3]//a[1]")))
+			{
+				clickIdentifierXpath("//div[3]//a[1]");
+				Log.info("clicked on create your course button");
+			}
 			
 			typeTextById("title", "Course title " + d.toString());
 			Log.info("entered course title");

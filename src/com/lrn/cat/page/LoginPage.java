@@ -16,7 +16,7 @@ public class LoginPage extends CATAppCommon{
                   clickIdentifierXpath("//div[@class='loginBtnWrapper']/input");
                   softAssertEquals("//div[@class='iconsTopContainer']/a[1]/p/span", "Create a Course");
                   softA.assertAll();
-                  Thread.sleep(300);
+                  Thread.sleep(3000);
                   //     Assert.assertTrue(waitForElementPresentByLinkText("log out"));
                   Log.pass("Logged-in Successfully!!");
 

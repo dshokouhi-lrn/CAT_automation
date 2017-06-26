@@ -41,5 +41,44 @@ public class ManageCourse extends CATAppCommon{
 
      }
 	}
+	
+	static public void cloneCourse(String coursePosition, String newCatalogID) throws Exception
+	{
+		try
+		{
+			Log.startTestCase("start cloning course");
+			
+			if (coursePosition == "")
+				coursePosition = "1";
+			
+			clickIdentifierXpath(".//*[@id='courseResultsTable']/tbody/tr[" + coursePosition + "]/td[10]/a[@id='cloneDialog']/span/i");
+			
+			Thread.sleep(1000);
+			
+			clickIdentifierXpath(".//div[@aria-describedby='dialogArea']/div[3]/div/button[1]");
+			
+			String checkedOut = getValueByXpath("//*[@id='messageDialog']/tr/td[2]");
+			
+			if (checkedOut.contains("Click on create to clone"))
+			{
+				Log.pass("successfully started cloning course");
+			}
+			
+			else
+				Log.fail("course did not start cloning for reason: " + checkedOut);
+		}
+		
+		catch(Exception e){  
+            Log.fail("Failed to clone course");
+            e.printStackTrace();
+            throw e;                                        
+     } catch(AssertionError e)
+     {
+            Log.fail("Failed to clone course");
+            e.printStackTrace();
+            throw e;
+
+     }
+	}
 
 }

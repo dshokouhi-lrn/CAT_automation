@@ -61,6 +61,9 @@ public class ReorderNodes extends CATAppCommon{
 	{
 		try
 		{
+			
+			Log.startTestCase("start drag and drop lesson test case");
+			
 			Actions builder = new Actions(driver);
 			
 			Action dragAndDrop = builder.clickAndHold(driver.findElement(By.xpath("//*[@id='courseTree']/ul/li/ul/li[" + fromLesson + "]/div"))) //some element will be the location(xpath) from where you will drag
@@ -73,7 +76,7 @@ public class ReorderNodes extends CATAppCommon{
 					
 					if (publish.contains("Successfully reordered course."))
 					{
-						Log.pass("reordered lessons");
+						Log.pass("lesson " + fromLesson + " dropped to lesson " + toLesson);
 					}
 					
 					else
@@ -97,6 +100,9 @@ public class ReorderNodes extends CATAppCommon{
 	{
 		try
 		{
+			
+			Log.startTestCase("start drag and drop topics");
+			
 			Actions builder = new Actions(driver);
 			
 			Action dragAndDrop = builder.clickAndHold(driver.findElement(By.xpath("//*[@id='courseTree']/ul/li/ul/li[" + fromLesson + "]/ul/li[" + fromTopic + "]/div"))) //some element will be the location(xpath) from where you will drag
@@ -109,7 +115,7 @@ public class ReorderNodes extends CATAppCommon{
 					
 					if (publish.contains("Successfully reordered course."))
 					{
-						Log.pass("reordered topics");
+						Log.pass("dragged topic " + fromTopic + " from lesson " + fromLesson + " to topic " + toTopic + " at lesson " + toLesson);
 					}
 					
 					else
@@ -123,6 +129,120 @@ public class ReorderNodes extends CATAppCommon{
      } catch(AssertionError e)
      {
             Log.fail("Failed to drag and drop topic");
+            e.printStackTrace();
+            throw e;
+
+     }
+	}
+	
+	static public void dragTopicToDropLesson(String fromTopic, String toTopic, String fromLesson, String toLesson) throws Exception
+	{
+		try
+		{
+			Log.startTestCase("start drag topic to lesson");
+			
+			Actions builder = new Actions(driver);
+			
+			Action dragAndDrop = builder.clickAndHold(driver.findElement(By.xpath("//*[@id='courseTree']/ul/li/ul/li[" + fromLesson + "]/ul/li[" + fromTopic + "]/div"))) //some element will be the location(xpath) from where you will drag
+					   .moveToElement(driver.findElement(By.xpath("//*[@id='courseTree']/ul/li/ul/li[" + toLesson + "]/div"))) //other element will be the xpath where you gona drop.
+					   .release(driver.findElement(By.xpath("//*[@id='courseTree']/ul/li/ul/li[" + toLesson + "]/div")))
+					   .build();
+					dragAndDrop.perform();
+
+					String publish = getValueByXpath("//*[@id='messageDialog']/tr/td[2]");
+					
+					if (publish.contains("Successfully reordered course."))
+					{
+						Log.pass("moved topic " + fromTopic + " to lesson " + toLesson);
+					}
+					
+					else
+						Log.fail("Unable to reorder course for reason: " + publish);
+		}
+		
+		catch(Exception e){  
+            Log.fail("Failed to drag and drop topic");
+            e.printStackTrace();
+            throw e;                                        
+     } catch(AssertionError e)
+     {
+            Log.fail("Failed to drag and drop topic");
+            e.printStackTrace();
+            throw e;
+
+     }
+	}
+	
+	static public void dragPageToDropTopic(String fromTopic, String toTopic, String fromLesson, String toLesson, String fromPage, String toPage) throws Exception
+	{
+		try
+		{
+			Log.startTestCase("start dragging page to topic");
+			
+			Actions builder = new Actions(driver);
+			
+			Action dragAndDrop = builder.clickAndHold(driver.findElement(By.xpath("//*[@id='courseTree']/ul/li/ul/li[" + fromLesson + "]/ul/li[" + fromTopic + "]/ul/li[" + fromPage + "]/div"))) //some element will be the location(xpath) from where you will drag
+					   .moveToElement(driver.findElement(By.xpath("//*[@id='courseTree']/ul/li/ul/li[" + toLesson + "]/ul/li[" + toTopic + "]/div"))) //other element will be the xpath where you gona drop.
+					   .release(driver.findElement(By.xpath("//*[@id='courseTree']/ul/li/ul/li[" + toLesson + "]/ul/li[" + toTopic + "]/div")))
+					   .build();
+					dragAndDrop.perform();
+
+					String publish = getValueByXpath("//*[@id='messageDialog']/tr/td[2]");
+					
+					if (publish.contains("Successfully reordered course."))
+					{
+						Log.pass("moved page " + fromPage + " from lesson " + fromLesson + " to topic " + toTopic + " at lesson " + toLesson);
+					}
+					
+					else
+						Log.fail("Unable to reorder course for reason: " + publish);
+		}
+		
+		catch(Exception e){  
+            Log.fail("Failed to drag and drop page");
+            e.printStackTrace();
+            throw e;                                        
+     } catch(AssertionError e)
+     {
+            Log.fail("Failed to drag and drop page");
+            e.printStackTrace();
+            throw e;
+
+     }
+	}
+	
+	static public void dragPageToDropLesson(String fromTopic, String toTopic, String fromLesson, String toLesson, String fromPage, String toPage) throws Exception
+	{
+		try
+		{
+			Log.startTestCase("start dragging page to lesson");
+			
+			Actions builder = new Actions(driver);
+			
+			Action dragAndDrop = builder.clickAndHold(driver.findElement(By.xpath("//*[@id='courseTree']/ul/li/ul/li[" + fromLesson + "]/ul/li[" + fromTopic + "]/ul/li[" + fromPage + "]/div"))) //some element will be the location(xpath) from where you will drag
+					   .moveToElement(driver.findElement(By.xpath("//*[@id='courseTree']/ul/li/ul/li[" + toLesson + "]/div"))) //other element will be the xpath where you gona drop.
+					   .release(driver.findElement(By.xpath("//*[@id='courseTree']/ul/li/ul/li[" + toLesson + "]/div")))
+					   .build();
+					dragAndDrop.perform();
+
+					String publish = getValueByXpath("//*[@id='messageDialog']/tr/td[2]");
+					
+					if (publish.contains("Successfully reordered course."))
+					{
+						Log.pass("moved page " + fromPage + " from lesson " + fromLesson + " to lesson " + toLesson);
+					}
+					
+					else
+						Log.fail("Unable to reorder course for reason: " + publish);
+		}
+		
+		catch(Exception e){  
+            Log.fail("Failed to drag and drop page");
+            e.printStackTrace();
+            throw e;                                        
+     } catch(AssertionError e)
+     {
+            Log.fail("Failed to drag and drop page");
             e.printStackTrace();
             throw e;
 

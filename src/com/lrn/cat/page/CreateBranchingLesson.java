@@ -24,7 +24,7 @@ public class CreateBranchingLesson extends CATAppCommon	{
 			
 			clickIdentifierXpath("//*[@id='courseTree']/ul/li/ul/li["+ lessonPosition + "]/a");
 			
-			Thread.sleep(1000);
+			Thread.sleep(10000);
 			
 			clickIdentifierByID("layout-adp-lsn-typ-branching-main");
 			
