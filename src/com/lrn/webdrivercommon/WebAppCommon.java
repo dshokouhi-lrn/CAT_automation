@@ -1018,6 +1018,28 @@ public class WebAppCommon {
 			throw e;
 		}
 	}
+	
+	// Method created selectDropdownValue Index
+		public static void selectDropdownValueByIndex(String strHTMLID, int strValue)
+				throws Exception {
+			strHTMLID = strHTMLID.trim();
+			// strValue = strValue.trim();
+			try {
+				if (waitForElementPresentByID(strHTMLID)) {
+					Select drpdown = new Select(
+							driver.findElement(By.id(strHTMLID)));
+					drpdown.selectByIndex(strValue);
+				} else {
+					Reporter.log("Could not click on " + strHTMLID
+							+ " because it was not found.");
+					failTestcase("Could not click on " + strHTMLID
+							+ " because it was not found.");
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+				throw e;
+			}
+		}
 
 	//selectDropdownValue
 	public static void selectDropdownValueVisibleText(String strHTMLID, String strValue) throws Exception
@@ -1113,8 +1135,8 @@ public class WebAppCommon {
 	}
 
 
-	//getValuebyid
-	public String getValueByID(String strHTMLID)
+	//getValuebyid changed to static
+	public static String getValueByID(String strHTMLID)
 	{
 		String strValue = null;
 		try

@@ -45,4 +45,40 @@ public class SearchCourse extends CATAppCommon{
 
            }
     }
+	
+	static public void deleteCourse() throws Exception
+	{
+		try
+		{
+			Log.startTestCase("start deleting course");
+			
+			clickIdentifierXpath(".//*[@id='deleteACourse']/span/i");
+			
+			Thread.sleep(2000);
+			
+			clickIdentifierXpath("//*[@aria-describedby='dialogArea']/div[3]/div/button[1]");
+			
+			String publish = getValueByXpath("//*[@id='messageDialog']/tr/td[2]");
+			
+			if (publish.contains("Delete Successfull"))
+			{
+				Log.pass("course deleted");
+			}
+			
+			else
+				Log.fail("Unable to delete course for reason: " + publish);
+		}
+		
+		catch(Exception e){  
+            Log.fail("Failed to delete course");
+            e.printStackTrace();
+            throw e;                                        
+     } catch(AssertionError e)
+     {
+            Log.fail("Failed to delete course");
+            e.printStackTrace();
+            throw e;
+
+     }
+	}
 }

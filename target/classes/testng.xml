@@ -56,6 +56,7 @@
 			<class name= "com.lrn.cat.tc.DeletePageTC" /> 
 			<class name= "com.lrn.cat.tc.LandingPageTC" />
 			<class name= "com.lrn.cat.tc.EditCertificationTC" />
+			<class name= "com.lrn.cat.tc.KnowledgeCheckTC" />
 			<class name= "com.lrn.cat.tc.TileMenuTC" />
 			<class name= "com.lrn.cat.tc.CourseFeaturesTC" />
 			<class name= "com.lrn.cat.tc.PublishCourseTC" />

@@ -83,10 +83,13 @@ public class CreateCourse extends CATAppCommon {
 			
 			if (courseSaved.contains(passed))
 			{
-				String systemID = getValueByXpath(".//*[@id='systemId']");
-				String catalogID = getValueByXpath(".//*[@id='catalogId']");
+				String sysID = driver.findElement(By.xpath(".//*[@id='systemId']")).getAttribute("value");
+				String catID = driver.findElement(By.xpath(".//*[@id='catalogId']")).getAttribute("value");
+
+				//String systemID = getValueByXpath(".//*[@id='systemId']");
+				//String catalogID = getValueByXpath(".//*[@id='catalogId']");
 				
-				Log.pass("course created successfully with system ID " + systemID + " and catalog ID " + catalogID);
+				Log.pass("course created successfully with system ID " + sysID + " and catalog ID " + catID);
 				
 				clickIdentifierXpath(".//div[@id='menuTabs']/ul/li[2]/p"); 
 				Log.info("Navigate to Create course tab");
