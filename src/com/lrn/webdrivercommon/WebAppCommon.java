@@ -1019,6 +1019,61 @@ public class WebAppCommon {
 		}
 	}
 	
+	
+	public static void getWaitForElementPresent(String elementXpath,int time)
+    {      
+           WebDriverWait wt = new WebDriverWait(driver,time);
+           wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(elementXpath)));
+    }
+
+/*************Module Manger**************/
+public String getTextValueByXpath(String element,String strHTMLID)
+    {
+           String strValue = null;
+           try
+           {
+                  if (waitForElementPresentByXpath(element,strHTMLID))
+                  {
+                        strValue = driver.findElement(By.xpath(strHTMLID)).getText();
+                        strValue=strValue.trim();
+                  }
+                  else
+                  {
+                        Reporter.log("Could not click on " + strHTMLID + " because it was not found.");
+                        failTestcase("Could not click on " + strHTMLID + " because it was not found.");
+                  }
+           }
+           catch(Exception e)
+           {
+                  e.printStackTrace();
+           }
+           return strValue;
+
+    }
+
+public static boolean waitForElementPresentByXpath(String element, String xpath1) throws Exception
+{
+       WebElement strElement = null;
+
+       strElement= new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath1)));
+       Log.info(strElement +  " is present");
+       highLightElement(driver, strElement);
+       Assert.assertTrue(strElement.isDisplayed(),element + "is not prsenet");
+       return strElement.isDisplayed();
+}
+
+
+public  static void getDroupDown(WebElement element,String value)
+    {
+           Select select=new Select(element);
+           //select.deselectAll();
+           select.selectByVisibleText(value);
+    }
+
+
+	
+	
+	
 	// Method created selectDropdownValue Index
 		public static void selectDropdownValueByIndex(String strHTMLID, int strValue)
 				throws Exception {

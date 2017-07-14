@@ -6,12 +6,13 @@
 	<test name="SanityCheck">
 		<!-- <firefox, chrome, ie> -->
 		<classes>
-			<class name="com.lrn.cat.tc.LoginTC" />
+			<class name="com.lrn.cat.tc.LCECLoginTC" />
+			<class name="com.lrn.cat.tc.ModuleManagerTC" />
 			
 <!-- 			<class name="com.lrn.cat.tc.SearchCourseTC" />
 			<class name="com.lrn.cat.tc.EditGetStartedTC" /> -->
 			
-<!-- 			<class name="com.lrn.cat.tc.EditCourseTC" /> -->
+<!-- 			<class name="com.lrn.cat.tc.EditCourseTC" />
 			<class name= "com.lrn.cat.tc.CreateCourseTC" />
  			<class name= "com.lrn.cat.tc.AddLessonTC" />
 			<class name= "com.lrn.cat.tc.AddTopicTC" />
@@ -64,7 +65,7 @@
 			<class name= "com.lrn.cat.tc.EditGetStartedTC" />
 			<class name= "com.lrn.cat.tc.ReorderNodesTC" />
 			<class name= "com.lrn.cat.tc.ExportToWordTC" />
-			<class name= "com.lrn.cat.tc.PushToCDVTC" />
+			<class name= "com.lrn.cat.tc.PushToCDVTC" /> -->
 <!-- 			<class name= "com.lrn.cat.tc.CheckInCourseTC" /> -->
 <!-- 			<class name= "com.lrn.cat.tc.CheckOutCourseTC" /> -->
             <class name="com.lrn.cat.tc.LogoutTC" />
