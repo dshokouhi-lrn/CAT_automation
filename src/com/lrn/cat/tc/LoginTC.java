@@ -14,6 +14,7 @@ public class LoginTC extends LoginPage{
 	{
 
 		login("admin", "admin");
+		//login("sandeep.kumar", "welcome1");
 
 	}
 	
